@@ -1,0 +1,661 @@
+
+#longj_body{
+  color: #222222;  
+}
+#longj_body .banner{
+  width: 100%;
+  height:3.9rem;
+  background:url(http://oltjsnp86.bkt.clouddn.com/banner.jpg) no-repeat center center;
+  background-size:100%;
+}
+#longj_body .banner img{
+  width: 1.95rem;
+  height: 3.1rem;
+  margin-top: .315rem;
+  margin-left: .545rem;
+}
+#longj_body .section{
+  height: 5.15rem;
+  background:url(http://p9kp2snxt.sabkt.gdipper.com/section.jpg) no-repeat center center;
+  background-size:100%; 
+  padding-top: .45rem;
+}
+#longj_body .am-whitespace.am-whitespace-md{
+  display: none;
+}
+/*轮播*/
+#longj_body .space-carousel {
+  overflow: hidden;
+  height: 2.3rem !important;
+}
+#longj_body .am-wingblank.am-wingblank-lg{
+  margin-left: 0;
+  margin-right: 0;
+  height: 2.3rem;
+}
+#longj_body .slider-frame{
+  height: 2.3rem !important;
+}
+#longj_body .slider-list{
+  /* margin-left: -0.8rem !important; */
+  height: 2.3rem !important;
+}
+#longj_body .slider-slide{
+  height: 2.3rem !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  /* width: 1.6rem !important; */
+}
+#longj_body .slider-slide span{
+  /* width: 1.6rem !important; */
+  height: 2.3rem !important;
+}
+#longj_body .slider-slide span img{
+    /* width: 1.6rem !important; */
+  height: 2.3rem !important;
+}
+
+
+#longj_body .sub-title{ 
+   text-align: center;
+   font-weight: bold;
+   height: .39rem;
+   line-height: .39rem;
+   font-size: .28rem;
+}
+#longj_body .sub-title1{ 
+  text-align: center;
+  color: #2F7B37;
+  margin-bottom: .55rem;
+  height: .265rem;
+  line-height: .265rem;
+  margin-top: .1rem;
+}
+
+#longj_body .sub-content{
+  font-size: .19rem;
+  height: .8rem;
+  line-height: .265rem;
+  padding:.255rem;
+  text-indent: 0.38rem;
+}
+/*茶叶来自于*/
+#longj_body .section1{
+  height: 9.575rem;
+  background:url(http://p9kp2snxt.sabkt.gdipper.com/section1.jpg) no-repeat center center;
+  background-size:100%; 
+  padding-top: .10rem;
+}
+#longj_body .map{
+  width: 2.24rem;
+  height:2.84rem;
+  float:left;
+  margin-right:.27rem;
+}
+#longj_body .mapimg{
+  width: 100%;
+  height:2.84rem;
+  vertical-align: top;
+}
+#longj_body .map-right{
+  width: 3.57rem;
+  height:2.84rem;
+  float:left;
+}
+#longj_body .map-text{
+  margin-top: .15rem;
+  text-indent:.38rem;
+  width:100%;
+  float:left;
+  font-size: 0.19rem;
+  line-height:.265rem;
+}
+#longj_body .sub-title2{ 
+  text-align: center;
+  font-weight: bold;
+  height: .39rem;
+  line-height: .39rem;
+  font-size: .28rem;
+}
+#longj_body .sub-title5{ 
+  text-align: center;
+  font-weight: bold;
+  height: .39rem;
+  line-height: .39rem;
+  font-size: .28rem;
+  margin-top: .25rem;
+}
+#longj_body .comefrom{
+  margin-top: .4rem;
+  padding-left:.25rem;
+  padding-right:.25rem;
+  width: 100%;
+}
+#longj_body .comefrom:after{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+#longj_body .pick{
+  margin-top: .53rem;
+  height: 2.04rem;
+}
+#longj_body .pick:after{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+#longj_body .pick1{
+  margin-top: .5rem;
+  height: 2.07rem;
+}
+#longj_body .pick1:after{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+#longj_body .pick2{
+  margin-top: .52rem;
+  height: 2.7rem;
+}
+#longj_body .pick2:after{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+#longj_body .sub-title3{ 
+  text-align: center;
+  font-weight: bold;
+  height: .39rem;
+  line-height: .39rem;
+  font-size: .28rem;
+  margin-top: .35rem;
+}
+/*炒茶*/
+#longj_body .section2{
+  height: 10rem;
+  background:url(http://p9kp2snxt.sabkt.gdipper.com/section2.jpg) no-repeat center center;
+  background-size:100%; 
+}
+/*数据*/
+#longj_body .section3{
+  width: 100%;
+  text-align: center;
+  height: 10.97rem;
+  background:url(http://p9kp2snxt.sabkt.gdipper.com/section3.jpg) no-repeat center center;
+  background-size:100%; 
+  padding-top: .4rem;
+}
+/*二维码*/
+#longj_body .section4{
+  width: 100%;
+  text-align: center;
+  height: 3.55rem;
+  background:url(http://p9kp2snxt.sabkt.gdipper.com/section4.jpg) no-repeat center center;
+  background-size:100%; 
+}
+#longj_body .section4 img{
+  width: 1.45rem;
+  height: 1.45rem;
+  margin-top: .66rem;
+}
+#longj_body .section4 p{
+  font-size: .19rem;
+  margin-top: .15rem;
+}
+.Consumer-body{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+  background-color: white;
+}
+
+.Consumer-nothingbox{
+  text-align: center;
+  font-size: 0.3rem;
+}
+
+.Consumer-title1{
+  text-align: center;
+  font-size: 1.1rem;
+  color: #79c97d;
+}
+
+.Consumer-titletext{
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  word-wrap: break-word;
+}
+
+.Consumer-IDbox{
+  width:55%;
+  height: 5rem;
+  background-image: url('./IDpic.png');
+  background-size: 100% 100%;
+  color: #79c97d;
+  padding-top: 2.5rem;
+  font-size: 1.2rem;
+}
+
+.Consumer-title{
+  width: 100%;
+  color: #79c97d;
+  font-size: 0.8rem;
+  margin-top: 0.7rem;
+  margin-bottom: 0.7rem;
+}
+
+.Consumer-location{
+  width: 80%;
+  background-color: #79c97d;
+  color: white;
+  font-size: 0.8rem;
+  border-radius: 1rem;
+  line-height: 1.1rem;
+  padding-top: 0.5rem;
+}
+
+.Consumer-location p{
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+
+.Consumer-pickinfo{
+  background-image: url('./info-bac.png');
+  color: white;
+  font-size: 0.8rem;
+  text-align: right;
+  padding: 0.3rem;
+  padding-right: 2rem;
+  padding-bottom: 0.6rem;  
+  background-size: 100% 100%;
+  width: 50%;
+  margin-right: 2%;
+}
+
+.Consumer-pickinfo p{
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+}
+
+.Consumer-pickdetail{
+  font-size: 0.65rem;
+  word-wrap: break-word;
+  margin-left: 0.7rem;
+  margin-bottom: 0.7rem;
+  border-bottom: 1px solid white;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;  
+  margin-top: 0.2rem;
+  text-align: left;
+  width: 100%;
+  line-height: 0.8rem;
+}
+
+.Consumer-cookinfo{
+  background-image: url('./info-bacc.png');
+  color: white;
+  font-size: 0.8rem;
+  text-align: left;
+  padding: 0.3rem;
+  padding-left: 2rem;
+  padding-bottom: 0.6rem;  
+  background-size: 100% 100%;
+  width: 50%;
+  margin-left: 2%;
+}
+
+.Consumer-cookinfo p{
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+}
+.am-flexbox{
+  overflow: hidden;
+}
+.Consumer-cookdetail{
+  font-size: 0.65rem;
+  word-wrap: break-word;
+  margin-right: 0.7rem;
+  margin-bottom: 0.7rem;
+  border-bottom: 1px solid white;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;  
+  margin-top: 0.2rem;
+  text-align: left;
+  width: 100%;
+  line-height: 0.8rem;
+}
+#longj_body .am-flexbox.am-flexbox-align-center{
+  align-items: flex-start;
+}
+.Consumer-data{
+  width: 45%;
+  color: black;
+  padding-left: 3%;
+  padding-right: 3%;
+  font-size: 0.22rem;
+  position: relative;
+}
+.data-position{
+  position: absolute;
+  left: -.2rem;
+  bottom: .2rem;
+  font-size: 0.19rem;
+  color: #222;
+}
+.data-position1{
+  position: absolute;
+  left: -.2rem;
+  bottom: .1rem;
+  font-size: 0.19rem;
+  color: #222;
+}
+#longj_body .mt1{
+  margin-top: .1rem;
+}
+#longj_body .mt2{
+  margin-top: .24rem;
+}
+#longj_body .mt3{
+  margin-top: .4rem;
+}
+#longj_body .mt4{
+  margin-top: .03rem;
+}
+#longj_body #tem-chart{
+  height: 2.5rem;
+}
+#longj_body #tem-chart>div{
+  width: 100% !important;
+  height: 2.5rem !important;
+  position: inherit !important;
+}
+#longj_body #tem-chart canvas{
+  width: 100%  !important;
+  position: inherit !important;
+  height: 2.2rem  !important;
+}
+#longj_body #hum-chart{
+  height: 2.5rem !important;
+}
+#longj_body #hum-chart>div{
+  position: inherit !important;
+  overflow: inherit !important;
+  height: 2.5rem !important;
+  width: 100% !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#longj_body #hum-chart canvas{ 
+    width: 100%  !important;
+  height: 2.2rem  !important;
+  position: inherit !important;
+}
+#longj_body .Consumer-data .data-title{
+  font-size: .22rem;
+  color:#2F7B37;
+  margin-left: .15rem;
+  font-weight: bold;
+}
+#longj_body .Consumer-datadetail{
+  font-size:.19rem;
+  height: 1.7rem;
+  word-wrap: break-word;
+  text-align: left;
+  width: 100%;
+  margin-top: .2rem;
+  line-height: .265rem;
+}
+#longj_body .chaye{
+  position: absolute;
+  right:0;
+  top: 55%;
+  width: 25%;
+}
+#longj_body .Consumer-data p{
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+}
+#longj_body .Consumer-dataimg {
+  width: 43%;
+  position: relative;
+  padding-left: 3%;
+  padding-right: 3%;  
+  text-align: center;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#longj_body .pm-data{
+  top: 0.65rem;
+  position: absolute;
+  left: 0.78rem;
+  color: white;
+  font-size: .3rem;
+}
+#longj_body .light-data{
+  bottom: 0.5rem;
+  position: absolute;
+  right: 0.88rem;
+  color: white;
+  font-size: .3rem;
+}
+#longj_body .Consumer-more{
+  color: #222222;
+  display: block;
+  text-decoration:none;
+  margin-top: 0.28rem;
+  font-size:0.2rem;
+  text-align: center;
+  width: 1.535rem;
+  margin:0 auto;
+  height: .5rem;
+  line-height: .5rem;
+  border: 1px solid #979797;
+}
+#longj_body .btn_main{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+#longj_body .clearfix:after{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;  
+}
+#longj_body .Consumer-idtext{
+  font-size: 0.8rem;
+  color: black;
+  margin-bottom: 0.2rem;
+  margin-top: 0.2rem;
+}
+
+#longj_body .Consumer-bottombar{
+  font-size: 0.5rem;
+  margin: 0.1rem;
+}
+#longj_body .am-whitespace.am-whitespace-xl{
+  display: none;
+}
+#longj_body .swiper-container {
+  width: 100%;
+  height: 2.25rem;
+}
+#longj_body .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  margin-right: .15rem;
+  margin-left: -.05rem;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+@media screen and (min-width: 375px) {
+  #longj_body .mt2 {
+    margin-top: .28rem;
+  }
+  #longj_body .light-data {
+    bottom: 0.45rem;
+}
+}
+@media screen and (max-width: 640px){
+  #longj_body .swiper-slide,.swiper-slide-duplicate,.swiper-slide-duplicate-prev,.swiper-slide-duplicate-next{width: 1.6rem;}
+}
+@media screen and (min-width: 640px) {
+  #longj_body  .banner{
+    height: 5.1rem;
+  }
+  #longj_body  .banner img {
+    width: 2.3rem;
+    height: 3.9rem;
+    margin-top: .315rem;
+    margin-left: .545rem;
+  }
+  #longj_body  .section{
+    height: 6.0rem;
+  }
+  #longj_body .sub-title {
+    font-size: .38rem;
+}
+#longj_body .sub-title1 {
+    margin-top: .3rem;
+    font-size: .3rem;
+}
+/* .slider-list {
+  height: 2.75rem !important;
+} */
+#longj_body .sub-content {
+  font-size: .25rem;
+  line-height: .3rem;
+}
+#longj_body .section1{
+  height: 11rem;
+}
+#longj_body .comefrom {
+  margin-top: .67rem;
+  padding-left: .3rem;
+  padding-right: .3rem;
+}
+#longj_body .map{
+  width: 2.7rem;
+  height: 3.4rem;
+  margin-right: 0.4rem;
+}
+#longj_body .mapimg{
+  height: 3.4rem;
+}
+#longj_body .map-right{
+  width: 4rem;
+  height: 3.4rem;
+  font-size: .5rem;
+}
+#longj_body .map-text{
+  font-size: .25rem;
+  line-height: .3rem;
+}
+#longj_body .sub-content{
+  height: 1rem;
+}
+#longj_body .pick1{
+  margin-top: .58rem;
+  height: 2.47rem;
+}
+#longj_body .pick1 img{
+  height: 2.47rem !important;
+}
+#longj_body .pick2{
+  margin-top: .38rem;
+  height: 3.25rem;
+}
+#longj_body .pick2 img{
+  height: 3.25rem !important; 
+}
+#longj_body .section3{
+  height: 12.7rem;
+}
+#longj_body .pm-data {
+  top: 0.73rem;
+  left: 1rem;
+  font-size: .25rem;
+}
+#longj_body .light-data {
+  bottom: 0.63rem;
+  right: 1.18rem;
+  font-size: .25rem;
+}
+#longj_body .Consumer-dataimg{
+  height: 2.5rem;
+}
+#longj_body .Consumer-data .data-title{
+  font-size: .25rem;
+}
+#longj_body .Consumer-datadetail {
+  font-size: .25rem;
+  height: 1.9rem;
+  word-wrap: break-word;
+  text-align: left;
+  width: 100%;
+  margin-top: .25rem;
+  line-height: .3rem;
+}
+#longj_body .mt1 {
+  margin-top: .66rem;
+}
+#longj_body .mt2 {
+  margin-top: .42rem;
+}
+#longj_body .mt3 {
+  margin-top: .38rem;
+}
+#longj_body .mt4{
+  margin-top: .18rem;
+}
+#longj_body .section4{
+  height: 4.35rem;
+}
+#longj_body .section4 img {
+  width: 1.74rem;
+  height: 1.74rem;
+  margin-top: .84rem;
+}
+#longj_body #hum-chart>div{
+  overflow: inherit !important;
+  width: 100%;
+}
+#longj_body .section4 p {
+  font-size: .29rem;
+  margin-top: .25rem;
+}
+}
