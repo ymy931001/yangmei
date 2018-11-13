@@ -425,9 +425,9 @@
 }
 #longj_body .chaye{
   position: absolute;
-  right:0;
-  top: 55%;
-  width: 25%;
+  right: -20%;
+  top: 60%;
+  width: 50%;
 }
 #longj_body .Consumer-data p{
   margin-top: 0.3rem;

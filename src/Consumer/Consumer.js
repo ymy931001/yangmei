@@ -195,7 +195,7 @@ export default class Consumer extends Component {
                   <a href="/consumer/cook" className="Consumer-more css12594a6bbd1d0b6">实时图片</a>
                 </div>
                 <div className="pick2">
-                  <img src={require('./packing.png')} style={{ width: '100%', height: '2.73rem', float: 'left', }} />
+                  <img src={require('./packing.jpg')} style={{ width: '100%', height: '2.73rem', float: 'left', }} />
 
                 </div>
                 <div className="sub-title3 css12594a6bbd1d0b6">用科技包裹风味与历史</div>
