@@ -108,7 +108,8 @@ export default class Consumer extends Component {
             }
           }
           if (teaType === "径山") {
-            this.document.title = "杭州径山茶叶有限公司茶园—让数据说话";
+            console.log('aaaa' + teaType)
+            document.title = "杭州径山茶叶有限公司茶园—让数据说话";
             this.setState({
               content: <div style={{ width: '100%' }} id="jingshan_body">
                 <div className="banner">
@@ -270,7 +271,8 @@ export default class Consumer extends Component {
               </div>
             });
           } else {
-            this.document.title = "天竺茶园—让数据说话";
+            console.log('bbbb' + teaType)
+            document.title = "天竺茶园—让数据说话";
           }
           localStorage.setItem('cookIntroduction', cook.introduction);
           localStorage.setItem('cookTime', cook.cookTime);
