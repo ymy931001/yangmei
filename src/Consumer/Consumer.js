@@ -366,7 +366,7 @@ export default class Consumer extends Component {
                   <div className="sub-content css12594a6bbd1d0b6">使用塑料封独立包装最大程度保持径山茶的正宗风味，用古朴与科技相融的包装带您体验千年古茶与现代科技的完美融合。</div>
                 </div>
                 <div className="section3">
-                  <div className="sub-title2 css12594a6bbd1d0b6">让数据为龙井发声</div>
+                  <div className="sub-title2 css12594a6bbd1d0b6">让数据为径山茶发声</div>
                   <Flex justify="center" direction="column" >
                     <Flex justify="center">
                       <div className="Consumer-dataimg css12594a6bbd1d0b6"><span className="pm-data">{pmtext}</span></div>

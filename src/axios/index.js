@@ -11,18 +11,3 @@ export const fake = (params) => http.post(config.requestIp + '/users/fake', {
 	teaID: params[0],
 	code: params[1]
 });
-
-
-
-//径山茶园接口
-//消费者获取数据端口
-
-export const getInfoForConumers = (params) => http.getcon(config.requestIp + '/users/teaInfo/get?teaID=' + params[0], {
-});
-
-//微信配置函数
-
-export const fakes = (params) => http.post(config.requestIp + '/users/fake', {
-	teaID: params[0],
-	code: params[1]
-});
