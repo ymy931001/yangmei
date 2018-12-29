@@ -74,6 +74,8 @@ export default class Consumer extends Component {
           let lighttext = '优';
           var temArray = [[1, 5.55], [2, 3.44], [3, 2.44], [4, 6.43], [5, 6.45], [6, 6.22], [7, 7.34], [8, 7.65], [9, 6.33], [10, 6.87]];
           var mosArray = [[1, 16.5], [2, 17.3], [3, 17.4], [4, 19.3], [5, 18.5], [6, 17.3], [7, 16.9], [8, 17.4], [9, 18.5], [10, 19.2]];
+          console.log('aaa' + teaType)
+          console.log(res.data.teaInfo)
 
           if (parseFloat(pm25) > parseFloat(100) || parseFloat(pm25) < parseFloat(0)) {
             pm25 = '17.34';
@@ -270,10 +272,7 @@ export default class Consumer extends Component {
                 </div>
               </div>
             });
-          } else {
-            console.log('bbbb' + teaType)
-            document.title = "天竺茶园—让数据说话";
-          }
+          } 
           localStorage.setItem('cookIntroduction', cook.introduction);
           localStorage.setItem('cookTime', cook.cookTime);
           localStorage.setItem('cookName', cook.name);

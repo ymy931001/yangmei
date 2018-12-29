@@ -13,7 +13,7 @@ export default class Consumer extends Component {
     imgHeight: 160,
   }
   componentDidMount = () => {
-  
+
     let url = window.location.href;
     url = url.split('=', 2);
     let urll = url[1];
@@ -106,7 +106,8 @@ export default class Consumer extends Component {
             }
           }
           if (teaType === "龙井") {
-            document.title = "天竺茶园-让数据替话";
+            console.log(teaType + 'aaa')
+            document.title = "天竺茶园-让数据替茶说话";
             this.setState({
               content: <div style={{ width: '100%' }} id="longj_body">
                 <div className="banner">
@@ -265,7 +266,8 @@ export default class Consumer extends Component {
             });
           }
           if (teaType === "径山") {
-
+            console.log(teaType + 'bbb')
+            document.title = "径山茶园-让数据替茶说话";
             this.setState({
               content: <div style={{ width: '100%' }} id="jingshan_body">
                 <div className="banner">
