@@ -111,7 +111,7 @@ export default class Consumer extends Component {
             this.setState({
               content: <div style={{ width: '100%' }} id="longj_body">
                 <div className="banner">
-                  <img src={require('./banner2.png')} />
+                  <img src={require('./banner1.png')} />
                 </div>
                 <div className="section">
                   <div className="sub-title css12594a6bbd1d0b6">西湖龙井</div>
@@ -271,7 +271,7 @@ export default class Consumer extends Component {
             this.setState({
               content: <div style={{ width: '100%' }} id="jingshan_body">
                 <div className="banner">
-                  <img src={require('./banner1.png')} />
+                  <img src={require('./banner2.png')} />
                 </div>
                 <div className="section">
                   <div className="sub-title css12594a6bbd1d0b6">径山茶</div>
