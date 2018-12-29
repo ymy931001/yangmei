@@ -111,7 +111,7 @@ export default class Consumer extends Component {
             this.setState({
               content: <div style={{ width: '100%' }} id="longj_body">
                 <div className="banner">
-                  <img src={require('./banner1.png')} />
+                  <img src={require('./banner2.png')} />
                 </div>
                 <div className="section">
                   <div className="sub-title css12594a6bbd1d0b6">西湖龙井</div>
@@ -267,7 +267,7 @@ export default class Consumer extends Component {
           }
           if (teaType === "径山") {
             console.log(teaType + 'bbb')
-            document.title = "径山茶园-让数据替茶说话";
+            document.title = "杭州径山茶叶有限公司茶园—让数据说话";
             this.setState({
               content: <div style={{ width: '100%' }} id="jingshan_body">
                 <div className="banner">
