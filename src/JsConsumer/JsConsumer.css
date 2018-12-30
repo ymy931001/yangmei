@@ -82,8 +82,8 @@
 /*茶叶来自于*/
 #jingshan_body .section1{
   height: 12.75rem;
-  background:url(http://maoyang.terabits.cn/section.jpg) no-repeat center center;
-  background-size:100%; 
+  background:url(http://maoyang.terabits.cn/section.jpg) no-repeat;
+  background-size:cover; 
   padding-top: .10rem;
 }
 #jingshan_body .map{
