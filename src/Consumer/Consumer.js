@@ -265,7 +265,7 @@ export default class Consumer extends Component {
               </div>
             });
           }
-          if (teaType === "径山") {
+          if (teaType === "龙井") {
             console.log(teaType + 'bbb')
             document.title = "杭州径山茶叶有限公司茶园—让数据说话";
             this.setState({
@@ -334,9 +334,10 @@ export default class Consumer extends Component {
                       <div style={{ fontSize: '0.22rem', marginBottom: '0.1rem', textAlign: 'center' }} className="css12594a6bbd1d0b6">{garden.name}</div>
                       <div style={{ textAlign: 'center', fontSize: '0.19rem' }} className="css12594a6bbd1d0b6">东经：{garden.details.latitude} 北纬：{garden.details.longitude}</div>
                       <div className="map-text css12594a6bbd1d0b6">
-                        杭州径山茶叶有限公司的茶叶产自于径山茶核心产区——径山寺山顶西侧的唐代千年历史茶地。径山万寿禅寺雄踞江南禅院“五山十刹”之首，号称“东南第一禅院”。径山灵山毓秀，渌水含英，蕙若暨芝兰并茂，芳苓与瑞树同生。径山寺开山祖师法钦植茶数株，赖夫膏壤滋孳，雾露涵菁，遂千遂万，蔓衍山中。
+                      杭州径山茶叶有限公司的茶叶产自于径山茶核心产区——径山寺山顶西侧的唐代千年历史茶地。径山万寿禅寺雄踞江南禅院“五山十刹”之首，号称“东南第一禅院”。径山灵山毓秀，渌水含英，蕙若暨芝兰并茂，芳苓与瑞树同生。径山寺开山祖师法钦植茶数株，赖夫膏壤滋孳，雾露涵菁，遂千遂万，蔓衍山中。采彼谷雨之
                       </div>
                     </div>
+                    <div style={{fontSize:"0.19rem",float:'left',width:'96%',lineHeight:'.265rem',marginTop:'.05rem'}}>芽，储诸佳缶；汲此双溪之泉，煮以美甑。猗欤香芬之清醇，正堪礼佛；休哉汤泽之澄碧，雅可作贡。余以自饮，于氤氲中明见禅心；兼以饮客，自机锋里证得空境。径山由此诞生径山的禅和茶，辨空色为非相，离相即佛；融禅茶于一味，知味了性。以是宴具三事，寓修行于嘉会；茶入六品，驰令誉于上邦。鸿渐南来，烹石泉于苕畔；茗艺东播，弘茶道于扶桑。径山茶，始栽于唐，闻名于宋，至今有1200余年历史。苏轼为径山常客，欲安迟暮；陆游乃方外素友，思寄余闲。他如子由胜览，蔡襄雅谈，王阳明隐迹莽野，徐青藤纵情竹弦。皆曾云鹤为侣，栖迟于林间月下；山猿作邻，啸咏于崖涘花前。秋弄丹桂，倚赤松之修茂；春访茑萝，濯碧流之潺湲。以是诗章海积，铭辞星繁，行述俱美，人文相缘。视此禅那之国土，不异翰场；观我浙杭之风标，几于此山。径山由此以“崇尚自然，讲究真色、真香、真味”独树一帜，更以“名山、名寺、名人、名茶”著称于世，铸就千古流传的《茶经》。</div>
                   </div>
                   <div className="pick1">
                     <img src={require('./pick1.jpg')} style={{ width: '100%', height: '2.07rem', verticalAlign: 'top', float: 'left', }} />
@@ -359,7 +360,7 @@ export default class Consumer extends Component {
                     <a href="/consumer/jscook" className="Consumer-more css12594a6bbd1d0b6">实时图片</a>
                   </div>
                   <div className="pick2">
-                    <img src={require('./packing.jpg')} style={{ width: '100%', height: '2.73rem', float: 'left', }} />
+                    <img src={require('./packing1.png')} style={{ width: '100%', height: '2.73rem', float: 'left', }} />
 
                   </div>
                   <div className="sub-title3 css12594a6bbd1d0b6">用科技包裹风味与历史</div>

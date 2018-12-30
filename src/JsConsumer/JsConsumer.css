@@ -81,8 +81,8 @@
 }
 /*茶叶来自于*/
 #jingshan_body .section1{
-  height: 9.575rem;
-  background:url(http://maoyang.terabits.cn/section1.jpg) no-repeat center center;
+  height: 12.75rem;
+  background:url(http://maoyang.terabits.cn/section.jpg) no-repeat center center;
   background-size:100%; 
   padding-top: .10rem;
 }
@@ -128,8 +128,6 @@
 #jingshan_body .comefrom{
   margin-top: .4rem;
   padding-left:.25rem;
-  padding-right:.25rem;
-  width: 100%;
 }
 #jingshan_body .comefrom:after{
 	visibility: hidden;
@@ -426,7 +424,7 @@
 #jingshan_body .chaye{
   position: absolute;
   right: -20%;
-  top: 60%;
+  top: 55%;
   width: 50%;
 }
 #jingshan_body .Consumer-data p{
