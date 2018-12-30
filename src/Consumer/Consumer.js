@@ -265,8 +265,7 @@ export default class Consumer extends Component {
               </div>
             });
           }
-          if (teaType === "龙井") {
-            console.log(teaType + 'bbb')
+          if (teaType === "径山") {
             document.title = "杭州径山茶叶有限公司茶园—让数据说话";
             this.setState({
               content: <div style={{ width: '100%' }} id="jingshan_body">
