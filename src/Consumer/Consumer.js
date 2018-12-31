@@ -353,7 +353,7 @@ export default class Consumer extends Component {
                     <img src={require('./chaye.png')} className="chaye" />
                     <img src={require('./cook1.jpg')} style={{ width: '100%', height: '2rem', float: 'left', }} />
                   </div>
-                  <div className="sub-title3 css12594a6bbd1d0b6">十大手法传承正宗</div>
+                  <div className="sub-title3 css12594a6bbd1d0b6">传承悠久的炒茶技艺</div>
                   <div className="sub-content css12594a6bbd1d0b6">由30年以上炒茶经验的炒茶师，经通风摊放——高温杀青——理调整型——精细揉捻——炭火烘焙五道工序制作而成。</div>
                   <div style={{ textAlign: 'center' }}>
                     <a href="/consumer/jscook" className="Consumer-more css12594a6bbd1d0b6">实时图片</a>
