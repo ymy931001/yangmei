@@ -349,7 +349,6 @@ export default class Consumer extends Component {
                   </div>
                 </div>
                 <div className="section2">
-                  {/* <div className="pick" style={{ marginTop: '0rem', position: 'relative' }}> */}
                   <WingBlank>
                     <Carousel className="space-carousel"
                       frameOverflow="visible"
@@ -363,7 +362,7 @@ export default class Consumer extends Component {
                       {this.state.data.map((val, index) => (
                         <span>
                           <img
-                            src={require(`./img1/${val}.png`)}
+                            src={require(`./img3/${val}.png`)}
                             alt=""
                             style={{ width: '47%', verticalAlign: 'top' }}
                             onLoad={() => {
@@ -373,7 +372,7 @@ export default class Consumer extends Component {
                             }}
                           />
                           <img
-                            src={require(`./img2/${val}.png`)}
+                            src={require(`./img4/${val}.png`)}
                             alt=""
                             style={{ width: '47%', verticalAlign: 'top', marginLeft: '6%' }}
                             onLoad={() => {
@@ -386,9 +385,6 @@ export default class Consumer extends Component {
                       ))}
                     </Carousel>
                   </WingBlank>
-                  {/* <img src={require('./chaye.png')} className="chaye" />
-                    <img src={require('./chao.png')} style={{ width: '100%', height: '2rem', float: 'left', }} />
-                  </div> */}
                   <div className="sub-title3 css12594a6bbd1d0b6">传承悠久的炒茶技艺</div>
                   <div className="sub-content css12594a6bbd1d0b6">由30年以上炒茶经验的炒茶师，经鲜叶摊放—杀青（手工）—理条（手工）—揉捻（手工）—干燥五道工序制作而成。</div>
                   <div style={{ textAlign: 'center' }}>
