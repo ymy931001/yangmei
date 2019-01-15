@@ -10,6 +10,7 @@ const requestIp = require('../axios/config.js');
 export default class Consumer extends Component {
   state = {
     data: ['1', '2', '3'],
+    data1: ['1', '2','3','4','5'],
     imgHeight: 160,
   }
   componentDidMount = () => {
@@ -359,7 +360,7 @@ export default class Consumer extends Component {
                       infinite
                       afterChange={index => this.setState({ slideIndex: index })}
                     >
-                      {this.state.data.map((val, index) => (
+                      {this.state.data1.map((val, index) => (
                         <span>
                           <img
                             src={require(`./img3/${val}.png`)}
@@ -371,7 +372,7 @@ export default class Consumer extends Component {
                               this.setState({ imgHeight: 'auto' });
                             }}
                           />
-                          <img
+                          {/* <img
                             src={require(`./img4/${val}.png`)}
                             alt=""
                             style={{ width: '47%', verticalAlign: 'top', marginLeft: '6%' }}
@@ -380,7 +381,7 @@ export default class Consumer extends Component {
                               window.dispatchEvent(new Event('resize'));
                               this.setState({ imgHeight: 'auto' });
                             }}
-                          />
+                          /> */}
                         </span>
                       ))}
                     </Carousel>
