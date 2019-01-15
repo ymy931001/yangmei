@@ -288,7 +288,7 @@ export default class Consumer extends Component {
                       {this.state.data.map((val, index) => (
                         <span>
                           <img
-                            src={require(`./img1/${val}.png`)}
+                            src={require(`./img/${val}.png`)}
                             alt=""
                             style={{ width: '47%', verticalAlign: 'top' }}
                             onLoad={() => {
@@ -298,7 +298,7 @@ export default class Consumer extends Component {
                             }}
                           />
                           <img
-                            src={require(`./img2/${val}.png`)}
+                            src={require(`./images/${val}.png`)}
                             alt=""
                             style={{ width: '47%', verticalAlign: 'top', marginLeft: '6%' }}
                             onLoad={() => {
