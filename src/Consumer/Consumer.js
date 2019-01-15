@@ -288,7 +288,7 @@ export default class Consumer extends Component {
                       {this.state.data.map((val, index) => (
                         <span>
                           <img
-                            src={require(`./img/${val}.png`)}
+                            src={require(`./img1/${val}.png`)}
                             alt=""
                             style={{ width: '47%', verticalAlign: 'top' }}
                             onLoad={() => {
@@ -298,7 +298,7 @@ export default class Consumer extends Component {
                             }}
                           />
                           <img
-                            src={require(`./images/${val}.png`)}
+                            src={require(`./img2/${val}.png`)}
                             alt=""
                             style={{ width: '47%', verticalAlign: 'top', marginLeft: '6%' }}
                             onLoad={() => {
@@ -339,7 +339,7 @@ export default class Consumer extends Component {
                     <div style={{fontSize:"0.19rem",float:'left',width:'96%',lineHeight:'.265rem',marginTop:'.05rem'}}>采彼谷雨之芽，储诸佳缶；汲此双溪之泉，煮以美甑。猗欤香芬之清醇，正堪礼佛；休哉汤泽之澄碧，雅可作贡。余以自饮，于氤氲中明见禅心；兼以饮客，自机锋里证得空境。径山由此诞生径山的禅和茶，辨空色为非相，离相即佛；融禅茶于一味，知味了性。以是宴具三事，寓修行于嘉会；茶入六品，驰令誉于上邦。鸿渐南来，烹石泉于苕畔；茗艺东播，弘茶道于扶桑。径山茶，始栽于唐，闻名于宋，至今有1200余年历史。苏轼为径山常客，欲安迟暮；陆游乃方外素友，思寄余闲。他如子由胜览，蔡襄雅谈，王阳明隐迹莽野，徐青藤纵情竹弦。皆曾云鹤为侣，栖迟于林间月下；山猿作邻，啸咏于崖涘花前。秋弄丹桂，倚赤松之修茂；春访茑萝，濯碧流之潺湲。以是诗章海积，铭辞星繁，行述俱美，人文相缘。视此禅那之国土，不异翰场；观我浙杭之风标，几于此山。径山由此以“崇尚自然，讲究真色、真香、真味”独树一帜，更以“名山、名寺、名人、名茶”著称于世，铸就千古流传的《茶经》。</div>
                   </div>
                   <div className="pick1">
-                    <img src={require('./pick1.jpg')} style={{ width: '100%', height: '2.07rem', verticalAlign: 'top', float: 'left', }} />
+                    <img src={require('./caizhai.png')} style={{ width: '100%', height: '2.07rem', verticalAlign: 'top', float: 'left', }} />
                   </div>
                   <div className="sub-title3 css12594a6bbd1d0b6" >手工采摘品质保证</div>
                   <div className="sub-content css12594a6bbd1d0b6"
@@ -351,7 +351,7 @@ export default class Consumer extends Component {
                 <div className="section2">
                   <div className="pick" style={{ marginTop: '0rem', position: 'relative' }}>
                     <img src={require('./chaye.png')} className="chaye" />
-                    <img src={require('./cook1.jpg')} style={{ width: '100%', height: '2rem', float: 'left', }} />
+                    <img src={require('./chao.png')} style={{ width: '100%', height: '2rem', float: 'left', }} />
                   </div>
                   <div className="sub-title3 css12594a6bbd1d0b6">传承悠久的炒茶技艺</div>
                   <div className="sub-content css12594a6bbd1d0b6">由30年以上炒茶经验的炒茶师，经通风摊放——高温杀青——理调整型——精细揉捻——炭火烘焙五道工序制作而成。</div>
