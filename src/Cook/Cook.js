@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import { Flex, Button, InputItem, Toast, WhiteSpace } from 'antd-mobile';
-import { getInfoForConumer } from "../axios";
 import './Cook.css';
 
 export default class Consumer extends Component {
