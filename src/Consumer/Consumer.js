@@ -391,7 +391,7 @@ export default class Consumer extends Component {
                     <a href="/consumer/jscook" className="Consumer-more css12594a6bbd1d0b6">实时图片</a>
                   </div>
                   <div className="pick2">
-                    <img src={require('./packing1.png')} style={{ width: '100%', height: '2.73rem', float: 'left', }} />
+                    <img src={require('./packing2.png')} style={{ width: '100%', height: '2.73rem', float: 'left', }} />
 
                   </div>
                   <div className="sub-title3 css12594a6bbd1d0b6">用科技包裹风味与历史</div>
@@ -456,7 +456,7 @@ export default class Consumer extends Component {
                   <div><img src={require('./brand4.png')} alt="logo" style={{ marginTop: '.25rem', width: '2rem', height: 'auto' }} /></div>
 
                   <p className="Consumer-bottombar css12594a6bbd1d0b6">技术保障：杭州移动 浙江大学</p>
-                  <p className="Consumer-bottombar css12594a6bbd1d0b6">实施单位：钛比科技  杭州径山茶叶有限公司</p>
+                  <p className="Consumer-bottombar css12594a6bbd1d0b6">实施单位：钛比科技  杭州径山茶叶有限公司（客服热线：13666605688）</p>
                 </div>
               </div>
             });
