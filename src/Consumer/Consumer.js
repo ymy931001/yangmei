@@ -43,20 +43,26 @@ export default class Consumer extends Component {
           let localcount = localStorage.getItem('count');
           let _this = this;
           if (localcount) {
+            let tag = '钛比科技';
+            if (teaType === "龙井") {
+              tag = '竺顶茶叶';
+            } else if (teaType === "径山") {
+              tag = '径山茶叶';
+            }
             if (localcount !== '0') {
-              Toast.fail('已有' + localcount + '人扫描过该二维码，请向卖家确认产品来源。', 7, null, false);
+              Toast.fail(`已有${localcount}人扫描过该二维码，请向卖家确认产品来源。`, 7, null, false);
             }
             else {
-              Toast.success('您是首位扫描该二维码的消费者，径山茶业基于区块链技术为您提供正品保障。', 5, null, false);
+              Toast.success(`您是首位扫描该二维码的消费者，${tag}基于区块链技术为您提供正品保障。`, 5, null, false);
             }
           }
           else {
             fake([teaidnum, code]).then(response => {
               if (response.data.count !== 0) {
-                Toast.fail('已有' + response.data.count + '人扫描过该二维码，请向卖家确认产品来源。', 7, null, false);
+                Toast.fail(`已有${response.data.count}人扫描过该二维码，请向卖家确认产品来源。`, 7, null, false);
               }
               else {
-                Toast.success('您是首位扫描该二维码的消费者，径山茶业基于区块链技术为您提供正品保障。', 5, null, false);
+                Toast.success(`您是首位扫描该二维码的消费者，${tag}基于区块链技术为您提供正品保障。`, 5, null, false);
               }
               localStorage.setItem('count', response.data.count);
             });
@@ -449,7 +455,7 @@ export default class Consumer extends Component {
                   </Flex>
                 </div>
                 <div className="section4">
-                  <div><img src={require('./brand1.png')} alt="logo"   style={{ width: '3rem', height: 'auto' }} /></div>
+                  <div><img src={require('./brand1.png')} alt="logo" style={{ width: '3rem', height: 'auto' }} /></div>
                   <div><img src={require('./brand3.png')} alt="logo" style={{ marginTop: '.25rem', width: '2.5rem', height: 'auto' }} /></div>
                   <div><img src={require('./brand2.png')} alt="logo" style={{ marginTop: '.2rem', width: '3rem', height: 'auto' }} /></div>
                   <div><img src={require('./brand4.png')} alt="logo" style={{ marginTop: '.2rem', width: '2rem', height: 'auto' }} /></div>
