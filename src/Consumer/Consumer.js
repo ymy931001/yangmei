@@ -198,7 +198,7 @@ export default class Consumer extends Component {
                 <div className="section2">
                   <div className="pick" style={{ marginTop: '0rem', position: 'relative' }}>
                     <img src={require('./chaye.png')} className="chaye" />
-                    <img src={require('./cook1.jpg')} style={{ width: '100%', height: '2rem', float: 'left', }} />
+                    <img src={require('./cook1.png')} style={{ width: '100%', height: '2rem', float: 'left', }} />
                   </div>
                   <div className="sub-title3 css12594a6bbd1d0b6">十大手法传承正宗</div>
                   <div className="sub-content css12594a6bbd1d0b6">由30年以上炒茶经验的炒茶师，遵照杀青和辉锅两大步骤、“抖、搭、捺、拓、甩、扣、挺、抓、压、磨”十大手法的精细炒制为您呈现西湖龙井最正宗的口感与风味。</div>
