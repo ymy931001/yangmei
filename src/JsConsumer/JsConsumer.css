@@ -201,14 +201,13 @@
 #jingshan_body .section4{
   width: 100%;
   text-align: center;
-  height: 10.55rem;
+  height: 10.75rem;
   background:url(http://maoyang.terabits.cn/section.jpg) repeat top center;
   background-size:cover; 
 }
 #jingshan_body .section4 img{
   width: 1.45rem;
   height: 1.45rem;
-  margin-top: .66rem;
 }
 #jingshan_body .section4 p{
   font-size: .19rem;
