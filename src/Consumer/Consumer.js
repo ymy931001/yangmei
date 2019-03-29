@@ -42,6 +42,19 @@ export default class Consumer extends Component {
           let { letcode } = query;
           let localcount = localStorage.getItem('count');
           let _this = this;
+          
+          let data = res.data;
+          let garden = res.data.teaInfo.gardenInfo;
+          let pick = res.data.teaInfo.pickInfo;
+          let teaType = res.data.teaInfo.teaType;
+          let cook = res.data.teaInfo.cookInfo;
+          let pm25 = garden.details.PM25;
+          let light = garden.details.light;
+          let pmtext = '优';
+          let lighttext = '优';
+          var temArray = [[1, 5.55], [2, 3.44], [3, 2.44], [4, 6.43], [5, 6.45], [6, 6.22], [7, 7.34], [8, 7.65], [9, 6.33], [10, 6.87]];
+          var mosArray = [[1, 16.5], [2, 17.3], [3, 17.4], [4, 19.3], [5, 18.5], [6, 17.3], [7, 16.9], [8, 17.4], [9, 18.5], [10, 19.2]];
+
           let tag = '钛比科技';
           if (localcount) {
             if (teaType === "龙井") {
@@ -67,17 +80,6 @@ export default class Consumer extends Component {
               localStorage.setItem('count', response.data.count);
             });
           }
-          let data = res.data;
-          let garden = res.data.teaInfo.gardenInfo;
-          let pick = res.data.teaInfo.pickInfo;
-          let teaType = res.data.teaInfo.teaType;
-          let cook = res.data.teaInfo.cookInfo;
-          let pm25 = garden.details.PM25;
-          let light = garden.details.light;
-          let pmtext = '优';
-          let lighttext = '优';
-          var temArray = [[1, 5.55], [2, 3.44], [3, 2.44], [4, 6.43], [5, 6.45], [6, 6.22], [7, 7.34], [8, 7.65], [9, 6.33], [10, 6.87]];
-          var mosArray = [[1, 16.5], [2, 17.3], [3, 17.4], [4, 19.3], [5, 18.5], [6, 17.3], [7, 16.9], [8, 17.4], [9, 18.5], [10, 19.2]];
 
           if (parseFloat(pm25) > parseFloat(100) || parseFloat(pm25) < parseFloat(0)) {
             pm25 = '17.34';
