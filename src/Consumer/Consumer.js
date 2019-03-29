@@ -42,8 +42,8 @@ export default class Consumer extends Component {
           let { letcode } = query;
           let localcount = localStorage.getItem('count');
           let _this = this;
+          let tag = '钛比科技';
           if (localcount) {
-            let tag = '钛比科技';
             if (teaType === "龙井") {
               tag = '竺顶茶叶';
             } else if (teaType === "径山") {
