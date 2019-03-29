@@ -57,9 +57,9 @@ export default class Consumer extends Component {
 
           let tag = '钛比科技';
           if (teaType === "龙井") {
-            tag = '竺顶茶叶';
+            tag = '竺顶茶业';
           } else if (teaType === "径山") {
-            tag = '径山茶叶';
+            tag = '径山茶业';
           }
           if (localcount) {
             if (localcount !== '0') {
@@ -114,7 +114,7 @@ export default class Consumer extends Component {
             }
           }
           if (teaType === "龙井") {
-            document.title = "竺顶茶叶-让数据替茶说话";
+            document.title = "竺顶茶业-让数据替茶说话";
             this.setState({
               content: <div style={{ width: '100%' }} id="longj_body">
                 <div className="banner">
