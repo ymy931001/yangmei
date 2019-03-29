@@ -454,10 +454,10 @@ export default class Consumer extends Component {
                   <div><img src={require('./brand3.png')} alt="logo" style={{ marginTop: '.25rem', width: '2.5rem', height: 'auto' }} /></div>
                   <div><img src={require('./brand2.png')} alt="logo" style={{ marginTop: '.2rem', width: '3rem', height: 'auto' }} /></div>
                   <div><img src={require('./brand4.png')} alt="logo" style={{ marginTop: '.2rem', width: '2rem', height: 'auto' }} /></div>
-
+                  <p className="Consumer-bottombar css12594a6bbd1d0b6">杭州径山茶叶有限公司</p>
+                  <p>客服热线：13666605688</p>
                   <p className="Consumer-bottombar css12594a6bbd1d0b6">技术保障：杭州移动 浙江大学</p>
                   <p className="Consumer-bottombar css12594a6bbd1d0b6">实施单位：钛比科技  </p>
-                  <p className="Consumer-bottombar css12594a6bbd1d0b6">杭州径山茶叶有限公司（客服热线：13666605688）</p>
                 </div>
               </div>
             });
