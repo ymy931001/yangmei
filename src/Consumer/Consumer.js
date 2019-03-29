@@ -56,12 +56,12 @@ export default class Consumer extends Component {
           var mosArray = [[1, 16.5], [2, 17.3], [3, 17.4], [4, 19.3], [5, 18.5], [6, 17.3], [7, 16.9], [8, 17.4], [9, 18.5], [10, 19.2]];
 
           let tag = '钛比科技';
+          if (teaType === "龙井") {
+            tag = '竺顶茶叶';
+          } else if (teaType === "径山") {
+            tag = '径山茶叶';
+          }
           if (localcount) {
-            if (teaType === "龙井") {
-              tag = '竺顶茶叶';
-            } else if (teaType === "径山") {
-              tag = '径山茶叶';
-            }
             if (localcount !== '0') {
               Toast.fail(`已有${localcount}人扫描过该二维码，请向卖家确认产品来源。`, 7, null, false);
             }
@@ -114,8 +114,7 @@ export default class Consumer extends Component {
             }
           }
           if (teaType === "龙井") {
-            console.log(teaType + 'aaa')
-            document.title = "天竺茶园-让数据替茶说话";
+            document.title = "竺顶茶叶-让数据替茶说话";
             this.setState({
               content: <div style={{ width: '100%' }} id="longj_body">
                 <div className="banner">
