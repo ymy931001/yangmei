@@ -17,8 +17,8 @@ export default class Consumer extends Component {
     return (
       <div id="pickbody">
       <div className="Cook-body">   
-          {/* <div className="address css12594a6bbd1d0b6">实景采摘地点</div> */}
-          <div className="address css12594a6bbd1d0b6"></div>
+          <div className="address css12594a6bbd1d0b6">实景采摘地点</div>
+          {/* <div className="address css12594a6bbd1d0b6"></div> */}
           <div className="clearfix pack-main">
             <div className="Cook-text">
               {/* <img src={require('./map.png')} alt="pic" />
