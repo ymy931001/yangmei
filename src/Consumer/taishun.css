@@ -81,7 +81,7 @@
 }
 /*茶叶来自于*/
 #taishun_body .section1{
-  height: 9.575rem;
+  height: 10.575rem;
   background:url(http://maoyang.terabits.cn/section.jpg) no-repeat center center;
   background-size:100%; 
   padding-top: .10rem;
@@ -186,7 +186,7 @@
 }
 /*炒茶*/
 #taishun_body .section2{
-  height: 5rem;
+  height: 6rem;
   background:url(http://maoyang.terabits.cn/section.jpg) no-repeat center center;
   background-size:cover; 
 }

@@ -553,19 +553,20 @@ export default class Consumer extends Component {
                   <div className="sub-title3 css12594a6bbd1d0b6" >手工采摘品质保证</div>
                   <div className="sub-content css12594a6bbd1d0b6"
                   >白毫茶以采摘细嫩著称，春茶以一叶一芽为采摘标准。清明前后采摘的茶叶为品质最佳，采茶姑娘们踏着清晨露水，用一双熟悉的巧手摘下饱满鲜嫩的茶叶尖。</div>
-                  <div style={{ textAlign: 'center' }}>
+                  {/* <div style={{ textAlign: 'center' }}>
                     <a href="/consumer/jspick" className="Consumer-more css12594a6bbd1d0b6">实时图片</a>
-                  </div>
+                  </div> */}
                 </div>
                 <div className="section2">
                   <div className="pick" style={{ marginTop: '0rem', position: 'relative' }}>
                     <img src={require('./tscook.jpg')} style={{ width: '100%', height: '2rem', float: 'left', }} />
                   </div>
                   <div className="sub-title3 css12594a6bbd1d0b6">传承悠久的炒茶技艺</div>
-                  <div className="sub-content css12594a6bbd1d0b6">由30年以上炒茶经验的炒茶师，经鲜叶摊放—杀青（手工）—理条（手工）—揉捻（手工）—干燥五道工序制作而成。</div>
-                  <div style={{ textAlign: 'center' }}>
+                  <div className="sub-content css12594a6bbd1d0b6">香菇寮白毫最主要的品质特征是内含兰花香。兰花香是茶种本身的特质，但采制方法决定着香味的发挥程度，传统手工采制方法更利于兰花香韵的发挥。         
+                  香菇寮白毫选用一芽一叶或一芽二叶初展的幼嫩芽叶，采后以5厘米的厚度，将青叶推放在簸箕上，约经4－6小时的摊凉后，再经杀青、揉捻、初烘、炒二青、复烘、滚袋六道工序制作而成。</div>
+                  {/* <div style={{ textAlign: 'center' }}>
                     <a href="/consumer/jscook" className="Consumer-more css12594a6bbd1d0b6">实时图片</a>
-                  </div>
+                  </div> */}
                   {/* <div className="pick2">
                     <img src={require('./packing2.png')} style={{ width: '100%', height: '2.73rem', float: 'left', }} />
 
