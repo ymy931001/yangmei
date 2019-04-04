@@ -520,7 +520,7 @@ export default class Consumer extends Component {
                     </Carousel>
                   </WingBlank>
                   <div className="sub-content css12594a6bbd1d0b6">
-                    中国移动联合浙江大学以温州市泰顺县彭溪镇彭溪村香菇寮西侧1公里处高品质茶叶基地，无污染有机茶园为试点；利用物联网及区块链技术，实现了白毫茶种植、制作等环节的数据追溯，让数据替茶说话。
+                  泰顺县彭溪镇香菇寮白毫原产地，利用浙江大学“物联网+区块链”技术，实现香菇寮白毫从产地环境监测、种植、制作、封装过程的数据追溯，让数据替茶说话，用科技守卫品质。
                 </div >
                 </div>
                 <div className="section1">
