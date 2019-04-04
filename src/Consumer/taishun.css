@@ -7,7 +7,7 @@
   height:3.9rem;
   /* background:url(http://maoyang.terabits.cn/tsbanners.jpg) no-repeat center center; */
   background:url(http://maoyang.terabits.cn/tim.jpg) no-repeat center center;
-  background-size:100%;
+  background-size:cover;
 }
 #taishun_body .banner img{
   width: 1.95rem;
