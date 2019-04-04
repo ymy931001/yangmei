@@ -62,25 +62,28 @@ export default class Consumer extends Component {
           } else if (teaType === "径山") {
             tag = '径山茶业';
           }
-          if (localcount) {
-            if (localcount !== '0') {
-              Toast.fail(`已有${localcount}人扫描过该二维码，请向卖家确认产品来源。`, 7, null, false);
-            }
-            else {
-              Toast.success(`您是首位扫描该二维码的消费者，${tag}基于区块链技术为您提供正品保障。`, 5, null, false);
-            }
-          }
-          else {
-            fake([teaidnum, code]).then(response => {
-              if (response.data.count !== 0) {
-                Toast.fail(`已有${response.data.count}人扫描过该二维码，请向卖家确认产品来源。`, 7, null, false);
+          if (teaType != "泰顺") {
+            if (localcount) {
+              if (localcount !== '0') {
+                Toast.fail(`已有${localcount}人扫描过该二维码，请向卖家确认产品来源。`, 7, null, false);
               }
               else {
                 Toast.success(`您是首位扫描该二维码的消费者，${tag}基于区块链技术为您提供正品保障。`, 5, null, false);
               }
-              localStorage.setItem('count', response.data.count);
-            });
+            }
+            else {
+              fake([teaidnum, code]).then(response => {
+                if (response.data.count !== 0) {
+                  Toast.fail(`已有${response.data.count}人扫描过该二维码，请向卖家确认产品来源。`, 7, null, false);
+                }
+                else {
+                  Toast.success(`您是首位扫描该二维码的消费者，${tag}基于区块链技术为您提供正品保障。`, 5, null, false);
+                }
+                localStorage.setItem('count', response.data.count);
+              });
+            }
           }
+
 
           if (parseFloat(pm25) > parseFloat(100) || parseFloat(pm25) < parseFloat(0)) {
             pm25 = '17.34';
@@ -538,11 +541,11 @@ export default class Consumer extends Component {
                       <div style={{ fontSize: '0.22rem', marginBottom: '0.1rem', textAlign: 'center' }} className="css12594a6bbd1d0b6">{garden.name}</div>
                       <div style={{ textAlign: 'center', fontSize: '0.19rem' }} className="css12594a6bbd1d0b6">东经：{garden.details.latitude} 北纬：{garden.details.longitude}</div>
                       <div className="map-text css12594a6bbd1d0b6">
-                      香菇寮，位于彭溪镇海拔四百多米的山岙之中，荟蔚苍萃，停云住霭，云烟起时犹如仙境，是孕育香菇寮白毫的一方净土。据多次移植试验证实，这里的地理环境对香菇寮白毫的种植具有不可复制性，其他地方尚无法培育出纯正味道的香菇寮白毫，因此种植规模非常有限，产量稀少，在市场上“一茶难求”，极为珍贵。
+                        香菇寮，位于彭溪镇海拔四百多米的山岙之中，荟蔚苍萃，停云住霭，云烟起时犹如仙境，是孕育香菇寮白毫的一方净土。据多次移植试验证实，这里的地理环境对香菇寮白毫的种植具有不可复制性，其他地方尚无法培育出纯正味道的香菇寮白毫，因此种植规模非常有限，产量稀少，在市场上“一茶难求”，极为珍贵。
                       </div>
                     </div>
                     <div style={{ fontSize: "0.19rem", float: 'left', width: '96%', lineHeight: '.265rem', marginTop: '.05rem' }}>
-                    香菇寮白毫是彭溪原产的珍稀茶种，省优质名茶，以兰花香品质独具特色，且据多次移植试验证实，这一特质在其他种植区域无法复制。中国第一茶院士陈宗懋院士多次到彭溪实地品鉴，赞誉其为茶中珍品。1999年曾获杭州国际茶博会金奖。               香菇寮白毫幽香似兰、周身白毫，茶中内含物质丰富，氨基酸含量高，经久耐泡，第二泡内质发挥达到顶峰，滋味鲜爽，回味甘甜，口感最佳。                    此茶为迟芽种，在泰顺的茶叶品种中，开园时间最晚，一般采制于清明前后。将明前茶奉为上品的选茶观念并不适用于香菇寮白毫，选择香菇寮应遵循“求优不求早”的原则。</div>
+                      香菇寮白毫是彭溪原产的珍稀茶种，省优质名茶，以兰花香品质独具特色，且据多次移植试验证实，这一特质在其他种植区域无法复制。中国第一茶院士陈宗懋院士多次到彭溪实地品鉴，赞誉其为茶中珍品。1999年曾获杭州国际茶博会金奖。               香菇寮白毫幽香似兰、周身白毫，茶中内含物质丰富，氨基酸含量高，经久耐泡，第二泡内质发挥达到顶峰，滋味鲜爽，回味甘甜，口感最佳。                    此茶为迟芽种，在泰顺的茶叶品种中，开园时间最晚，一般采制于清明前后。将明前茶奉为上品的选茶观念并不适用于香菇寮白毫，选择香菇寮应遵循“求优不求早”的原则。</div>
                   </div>
                   <div className="pick1">
                     <img src={require('./caizhai.png')} style={{ width: '100%', height: '2.07rem', verticalAlign: 'top', float: 'left', }} />
