@@ -474,7 +474,7 @@ export default class Consumer extends Component {
           }
 
           if (teaType === "泰顺") {
-            document.title = "杭州径山茶叶有限公司茶园—让数据说话";
+            document.title = "泰顺县广和农业开发有限公司—让数据说话";
             this.setState({
               content: <div style={{ width: '100%' }} id="taishun_body">
                 <div className="banner">
@@ -496,7 +496,7 @@ export default class Consumer extends Component {
                       {this.state.data.map((val, index) => (
                         <span>
                           <img
-                            src={require(`./img1/${val}.png`)}
+                            src={require(`./tsimg1/${val}.jpg`)}
                             alt=""
                             style={{ width: '47%', verticalAlign: 'top' }}
                             onLoad={() => {
@@ -506,7 +506,7 @@ export default class Consumer extends Component {
                             }}
                           />
                           <img
-                            src={require(`./img2/${val}.png`)}
+                            src={require(`./tsimg2/${val}.jpg`)}
                             alt=""
                             style={{ width: '47%', verticalAlign: 'top', marginLeft: '6%' }}
                             onLoad={() => {

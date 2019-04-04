@@ -5,7 +5,7 @@
 #taishun_body .banner{
   width: 100%;
   height:3.9rem;
-  background:url(http://maoyang.terabits.cn/tsbanner.jpg) no-repeat center center;
+  background:url(http://maoyang.terabits.cn/tsbanners.jpg) no-repeat center center;
   background-size:100%;
 }
 #taishun_body .banner img{
@@ -82,7 +82,7 @@
 /*茶叶来自于*/
 #taishun_body .section1{
   height: 9.575rem;
-  background:url(http://maoyang.terabits.cn/section1.jpg) no-repeat center center;
+  background:url(http://maoyang.terabits.cn/section.jpg) no-repeat center center;
   background-size:100%; 
   padding-top: .10rem;
 }
