@@ -625,14 +625,20 @@ export default class Consumer extends Component {
                       </div>
                     </Flex>
                   </Flex>
+                  <div>采摘时间：</div>
+                  <div>炒制时间：</div>
+                  <div>包装时间：</div>
                 </div>
                 <div className="section4">
                   {/* <div><img src={require('./brand1.png')} alt="logo" style={{ width: '3rem', height: 'auto' }} /></div>
                   <div><img src={require('./brand3.png')} alt="logo" style={{ marginTop: '.25rem', width: '2.5rem', height: 'auto' }} /></div>
                   <div><img src={require('./brand2.png')} alt="logo" style={{ marginTop: '.2rem', width: '3rem', height: 'auto' }} /></div>
                   <div><img src={require('./brand4.png')} alt="logo" style={{ marginTop: '.2rem', width: '2rem', height: 'auto' }} /></div> */}
-                  <div className="Consumer-bottombar css12594a6bbd1d0b6" style={{fontSize:'.28rem',lineHeight:'.5rem'}}>泰顺县广和农业开发有限公司</div>
-                  <div className="Consumer-bottombar css12594a6bbd1d0b6" style={{fontSize:'.28rem',lineHeight:'.5rem'}}>技术保障：杭州移动 浙江大学</div>
+                 <div className="Consumer-bottombar css12594a6bbd1d0b6" style={{fontSize:'.28rem',lineHeight:'.5rem'}}>
+                 <img src={require('./botlogo.png')} alt="logo" />
+                 泰顺县广和农业开发有限公司
+                 </div>
+                  <div className="Consumer-bottombar css12594a6bbd1d0b6" style={{fontSize:'.28rem',lineHeight:'.5rem'}}>技术保障：温州移动 浙江大学</div>
                   <div className="Consumer-bottombar css12594a6bbd1d0b6" style={{fontSize:'.28rem',lineHeight:'.5rem'}}>实施单位：钛比科技  </div>
                 </div>
               </div>
