@@ -529,7 +529,7 @@
     bottom: 0.45rem;
 }
 }
-@media screen and (max-width: 640px){
+/* @media screen and (max-width: 640px){
   #taishun_body .swiper-slide,.swiper-slide-duplicate,.swiper-slide-duplicate-prev,.swiper-slide-duplicate-next{width: 1.6rem;}
 }
 @media screen and (min-width: 640px) {
@@ -551,11 +551,11 @@
 #taishun_body .sub-title1 {
     margin-top: .3rem;
     font-size: .3rem;
-}
+} */
 /* .slider-list {
   height: 2.75rem !important;
 } */
-#taishun_body .sub-content {
+/* #taishun_body .sub-content {
   font-size: .25rem;
   line-height: .3rem;
 }
@@ -653,4 +653,4 @@
   font-size: .29rem;
   margin-top: .25rem;
 }
-}
+} */
