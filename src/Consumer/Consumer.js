@@ -10,7 +10,7 @@ const requestIp = require('../axios/config.js');
 
 export default class Consumer extends Component {
   state = {
-    data: ['1', '2', '3'],
+    data: ['1', '2', '3','4'],
     imgHeight: 160,
   }
   componentDidMount = () => {
