@@ -548,7 +548,7 @@ export default class Consumer extends Component {
                       香菇寮白毫是彭溪原产的珍稀茶种，省优质名茶，以兰花香品质独具特色，且据多次移植试验证实，这一特质在其他种植区域无法复制。中国第一茶院士陈宗懋院士多次到彭溪实地品鉴，赞誉其为茶中珍品。1999年曾获杭州国际茶博会金奖。               香菇寮白毫幽香似兰、周身白毫，茶中内含物质丰富，氨基酸含量高，经久耐泡，第二泡内质发挥达到顶峰，滋味鲜爽，回味甘甜，口感最佳。                    此茶为迟芽种，在泰顺的茶叶品种中，开园时间最晚，一般采制于清明前后。将明前茶奉为上品的选茶观念并不适用于香菇寮白毫，选择香菇寮应遵循“求优不求早”的原则。</div>
                   </div>
                   <div className="pick1">
-                    <img src={require('./caizhai.png')} style={{ width: '100%', height: '2.07rem', verticalAlign: 'top', float: 'left', }} />
+                    <img src={require('./tspick.png')} style={{ width: '100%', height: '2.07rem', verticalAlign: 'top', float: 'left', }} />
                   </div>
                   <div className="sub-title3 css12594a6bbd1d0b6" >手工采摘品质保证</div>
                   <div className="sub-content css12594a6bbd1d0b6"
@@ -558,42 +558,6 @@ export default class Consumer extends Component {
                   </div>
                 </div>
                 <div className="section2">
-                  <WingBlank>
-                    <Carousel className="space-carousel"
-                      frameOverflow="visible"
-                      cellSpacing={10}
-                      slideWidth={0.5}
-                      autoplay
-                      dots={false}
-                      infinite
-                      afterChange={index => this.setState({ slideIndex: index })}
-                    >
-                      {this.state.data.map((val, index) => (
-                        <span>
-                          <img
-                            src={require(`./img3/${val}.png`)}
-                            alt=""
-                            style={{ width: '47%', verticalAlign: 'top' }}
-                            onLoad={() => {
-                              // fire window resize event to change height
-                              window.dispatchEvent(new Event('resize'));
-                              this.setState({ imgHeight: 'auto' });
-                            }}
-                          />
-                          <img
-                            src={require(`./img4/${val}.png`)}
-                            alt=""
-                            style={{ width: '47%', verticalAlign: 'top', marginLeft: '6%' }}
-                            onLoad={() => {
-                              // fire window resize event to change height
-                              window.dispatchEvent(new Event('resize'));
-                              this.setState({ imgHeight: 'auto' });
-                            }}
-                          />
-                        </span>
-                      ))}
-                    </Carousel>
-                  </WingBlank>
                   <div className="sub-title3 css12594a6bbd1d0b6">传承悠久的炒茶技艺</div>
                   <div className="sub-content css12594a6bbd1d0b6">由30年以上炒茶经验的炒茶师，经鲜叶摊放—杀青（手工）—理条（手工）—揉捻（手工）—干燥五道工序制作而成。</div>
                   <div style={{ textAlign: 'center' }}>
@@ -662,8 +626,7 @@ export default class Consumer extends Component {
                   <div><img src={require('./brand3.png')} alt="logo" style={{ marginTop: '.25rem', width: '2.5rem', height: 'auto' }} /></div>
                   <div><img src={require('./brand2.png')} alt="logo" style={{ marginTop: '.2rem', width: '3rem', height: 'auto' }} /></div>
                   <div><img src={require('./brand4.png')} alt="logo" style={{ marginTop: '.2rem', width: '2rem', height: 'auto' }} /></div>
-                  <p className="Consumer-bottombar css12594a6bbd1d0b6">杭州径山茶叶有限公司</p>
-                  <p>客服热线：13666605688</p>
+                  <p className="Consumer-bottombar css12594a6bbd1d0b6">泰顺县广和农业开发有限公司</p>
                   <p className="Consumer-bottombar css12594a6bbd1d0b6">技术保障：杭州移动 浙江大学</p>
                   <p className="Consumer-bottombar css12594a6bbd1d0b6">实施单位：钛比科技  </p>
                 </div>
