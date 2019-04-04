@@ -17,7 +17,7 @@
 #taishun_body .section{
   height: 5.15rem;
   background:url(http://maoyang.terabits.cn/section.jpg) no-repeat center center;
-  background-size:100%; 
+  background-size:cover; 
   padding-top: .45rem;
 }
 #taishun_body .am-whitespace.am-whitespace-md{
@@ -82,7 +82,7 @@
 #taishun_body .section1{
   height: 10.575rem;
   background:url(http://maoyang.terabits.cn/section.jpg) no-repeat center center;
-  background-size:100%; 
+  background-size:cover; 
   padding-top: .10rem;
 }
 #taishun_body .map{
@@ -195,7 +195,7 @@
   text-align: center;
   height: 10.97rem;
   background:url(http://maoyang.terabits.cn/section3.jpg) no-repeat center center;
-  background-size:100%; 
+  background-size:cover; 
   padding-top: .4rem;
 }
 /*二维码*/
