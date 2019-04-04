@@ -475,10 +475,10 @@ export default class Consumer extends Component {
             this.setState({
               content: <div style={{ width: '100%' }} id="taishun_body">
                 <div className="banner">
-                  <img src={require('./banner2.png')} />
+                  <img src={require('./banner3.png')} />
                 </div>
                 <div className="section">
-                  <div className="sub-title css12594a6bbd1d0b6">径山茶</div>
+                  <div className="sub-title css12594a6bbd1d0b6">白毫茶</div>
                   <div className="sub-title1 css12594a6bbd1d0b6">全球唯一追溯ID: <span>{data.teaInfo.teaID}</span></div>
                   <WingBlank>
                     <Carousel className="space-carousel"
@@ -517,7 +517,7 @@ export default class Consumer extends Component {
                     </Carousel>
                   </WingBlank>
                   <div className="sub-content css12594a6bbd1d0b6">
-                    中国移动联合浙江大学以径山寺山顶西侧1公里处高品质茶叶基地，无污染有机茶园为试点；利用物联网及区块链技术，实现了径山茶种植、制作等环节的数据追溯，让数据替茶说话。
+                    中国移动联合浙江大学以温州市泰顺县彭溪镇彭溪村香菇寮西侧1公里处高品质茶叶基地，无污染有机茶园为试点；利用物联网及区块链技术，实现了白毫茶种植、制作等环节的数据追溯，让数据替茶说话。
                 </div >
                 </div>
                 <div className="section1">
@@ -541,14 +541,15 @@ export default class Consumer extends Component {
                       香菇寮，位于彭溪镇海拔四百多米的山岙之中，荟蔚苍萃，停云住霭，云烟起时犹如仙境，是孕育香菇寮白毫的一方净土。据多次移植试验证实，这里的地理环境对香菇寮白毫的种植具有不可复制性，其他地方尚无法培育出纯正味道的香菇寮白毫，因此种植规模非常有限，产量稀少，在市场上“一茶难求”，极为珍贵。
                       </div>
                     </div>
-                    <div style={{ fontSize: "0.19rem", float: 'left', width: '96%', lineHeight: '.265rem', marginTop: '.05rem' }}>采彼谷雨之芽，储诸佳缶；汲此双溪之泉，煮以美甑。猗欤香芬之清醇，正堪礼佛；休哉汤泽之澄碧，雅可作贡。余以自饮，于氤氲中明见禅心；兼以饮客，自机锋里证得空境。径山由此诞生径山的禅和茶，辨空色为非相，离相即佛；融禅茶于一味，知味了性。以是宴具三事，寓修行于嘉会；茶入六品，驰令誉于上邦。鸿渐南来，烹石泉于苕畔；茗艺东播，弘茶道于扶桑。径山茶，始栽于唐，闻名于宋，至今有1200余年历史。苏轼为径山常客，欲安迟暮；陆游乃方外素友，思寄余闲。他如子由胜览，蔡襄雅谈，王阳明隐迹莽野，徐青藤纵情竹弦。皆曾云鹤为侣，栖迟于林间月下；山猿作邻，啸咏于崖涘花前。秋弄丹桂，倚赤松之修茂；春访茑萝，濯碧流之潺湲。以是诗章海积，铭辞星繁，行述俱美，人文相缘。视此禅那之国土，不异翰场；观我浙杭之风标，几于此山。径山由此以“崇尚自然，讲究真色、真香、真味”独树一帜，更以“名山、名寺、名人、名茶”著称于世，铸就千古流传的《茶经》。</div>
+                    <div style={{ fontSize: "0.19rem", float: 'left', width: '96%', lineHeight: '.265rem', marginTop: '.05rem' }}>
+                    香菇寮白毫是彭溪原产的珍稀茶种，省优质名茶，以兰花香品质独具特色，且据多次移植试验证实，这一特质在其他种植区域无法复制。中国第一茶院士陈宗懋院士多次到彭溪实地品鉴，赞誉其为茶中珍品。1999年曾获杭州国际茶博会金奖。               香菇寮白毫幽香似兰、周身白毫，茶中内含物质丰富，氨基酸含量高，经久耐泡，第二泡内质发挥达到顶峰，滋味鲜爽，回味甘甜，口感最佳。                    此茶为迟芽种，在泰顺的茶叶品种中，开园时间最晚，一般采制于清明前后。将明前茶奉为上品的选茶观念并不适用于香菇寮白毫，选择香菇寮应遵循“求优不求早”的原则。</div>
                   </div>
                   <div className="pick1">
                     <img src={require('./caizhai.png')} style={{ width: '100%', height: '2.07rem', verticalAlign: 'top', float: 'left', }} />
                   </div>
                   <div className="sub-title3 css12594a6bbd1d0b6" >手工采摘品质保证</div>
                   <div className="sub-content css12594a6bbd1d0b6"
-                  >径山茶以采摘细嫩著称，春茶以一叶一芽为采摘标准。清明前后采摘的茶叶为品质最佳，采茶姑娘们踏着清晨露水，用一双熟悉的巧手摘下饱满鲜嫩的茶叶尖。</div>
+                  >白毫茶以采摘细嫩著称，春茶以一叶一芽为采摘标准。清明前后采摘的茶叶为品质最佳，采茶姑娘们踏着清晨露水，用一双熟悉的巧手摘下饱满鲜嫩的茶叶尖。</div>
                   <div style={{ textAlign: 'center' }}>
                     <a href="/consumer/jspick" className="Consumer-more css12594a6bbd1d0b6">实时图片</a>
                   </div>
