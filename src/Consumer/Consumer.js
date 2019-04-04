@@ -481,7 +481,7 @@ export default class Consumer extends Component {
                   <img src={require('./banner3.png')} />
                 </div>
                 <div className="section">
-                  <div className="sub-title css12594a6bbd1d0b6">白毫茶</div>
+                  <div className="sub-title css12594a6bbd1d0b6">香菇寮白毫</div>
                   <div className="sub-title1 css12594a6bbd1d0b6">全球唯一追溯ID: <span>{data.teaInfo.teaID}</span></div>
                   <WingBlank>
                     <Carousel className="space-carousel"
