@@ -35,6 +35,11 @@ export default class Consumer extends Component {
         this.setState({ nothingdiv });
       }
       else {
+        this.setState({
+           cookTime:res.data.teaInfo.cookInfo.cookTime,
+           packTime:res.data.teaInfo.packInfo.packTime,
+           pickTime:res.data.teaInfo.pickInfo.pickTime,
+        })
         const uri = new URI(document.location.href);
         const query = uri.query(true);
         const { code } = query;
@@ -50,6 +55,7 @@ export default class Consumer extends Component {
           let pick = res.data.teaInfo.pickInfo;
           let teaType = res.data.teaInfo.teaType;
           let cook = res.data.teaInfo.cookInfo;
+
           let pm25 = garden.details.PM25;
           let light = garden.details.light;
           let pmtext = '优';
@@ -625,9 +631,9 @@ export default class Consumer extends Component {
                       </div>
                     </Flex>
                   </Flex>
-                  <div>采摘时间：</div>
-                  <div>炒制时间：</div>
-                  <div>包装时间：</div>
+                  <div style={{fontSize:".25rem",lineHeight:'.3rem'}}>采摘时间：{this.state.pcikTime}</div>
+                  <div style={{fontSize:".25rem",lineHeight:'.3rem'}}>炒制时间：{this.state.cookkTime}</div>
+                  <div style={{fontSize:".25rem",lineHeight:'.3rem'}}>包装时间：{this.state.packTime}</div>
                 </div>
                 <div className="section4">
                   {/* <div><img src={require('./brand1.png')} alt="logo" style={{ width: '3rem', height: 'auto' }} /></div>
@@ -635,7 +641,7 @@ export default class Consumer extends Component {
                   <div><img src={require('./brand2.png')} alt="logo" style={{ marginTop: '.2rem', width: '3rem', height: 'auto' }} /></div>
                   <div><img src={require('./brand4.png')} alt="logo" style={{ marginTop: '.2rem', width: '2rem', height: 'auto' }} /></div> */}
                  <div className="Consumer-bottombar css12594a6bbd1d0b6" style={{fontSize:'.28rem',lineHeight:'.5rem'}}>
-                 <img src={require('./botlogo.png')} alt="logo" />
+                 <img src={require('./botlogo.png')} alt="logo"  style={{width:".25rem",height:'.25rem'}}/>
                  泰顺县广和农业开发有限公司
                  </div>
                   <div className="Consumer-bottombar css12594a6bbd1d0b6" style={{fontSize:'.28rem',lineHeight:'.5rem'}}>技术保障：温州移动 浙江大学</div>
