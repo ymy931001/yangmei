@@ -558,17 +558,20 @@ export default class Consumer extends Component {
                   </div>
                 </div>
                 <div className="section2">
+                  <div className="pick" style={{ marginTop: '0rem', position: 'relative' }}>
+                    <img src={require('./tscook.jpg')} style={{ width: '100%', height: '2rem', float: 'left', }} />
+                  </div>
                   <div className="sub-title3 css12594a6bbd1d0b6">传承悠久的炒茶技艺</div>
                   <div className="sub-content css12594a6bbd1d0b6">由30年以上炒茶经验的炒茶师，经鲜叶摊放—杀青（手工）—理条（手工）—揉捻（手工）—干燥五道工序制作而成。</div>
                   <div style={{ textAlign: 'center' }}>
                     <a href="/consumer/jscook" className="Consumer-more css12594a6bbd1d0b6">实时图片</a>
                   </div>
-                  <div className="pick2">
+                  {/* <div className="pick2">
                     <img src={require('./packing2.png')} style={{ width: '100%', height: '2.73rem', float: 'left', }} />
 
                   </div>
                   <div className="sub-title3 css12594a6bbd1d0b6">用科技包裹风味与历史</div>
-                  <div className="sub-content css12594a6bbd1d0b6">使用塑料封独立包装最大程度保持白毫茶的正宗风味，用古朴与科技相融的包装带您体验千年古茶与现代科技的完美融合。</div>
+                  <div className="sub-content css12594a6bbd1d0b6">使用塑料封独立包装最大程度保持白毫茶的正宗风味，用古朴与科技相融的包装带您体验千年古茶与现代科技的完美融合。</div> */}
                 </div>
                 <div className="section3">
                   <div className="sub-title2 css12594a6bbd1d0b6">让数据为白毫茶发声</div>
