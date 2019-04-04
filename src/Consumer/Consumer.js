@@ -487,7 +487,7 @@ export default class Consumer extends Component {
                     <Carousel className="space-carousel"
                       frameOverflow="visible"
                       cellSpacing={10}
-                      slideWidth={0.5}
+                      slideWidth={0.35}
                       autoplay
                       dots={false}
                       infinite
@@ -561,7 +561,7 @@ export default class Consumer extends Component {
                   <div className="pick" style={{ marginTop: '0rem', position: 'relative' }}>
                     <img src={require('./tscook.jpg')} style={{ width: '100%', height: '2rem', float: 'left', }} />
                   </div>
-                  <div className="sub-title3 css12594a6bbd1d0b6">传承悠久的炒茶技艺</div>
+                  <div className="sub-title3 css12594a6bbd1d0b6">传承传统制茶工艺</div>
                   <div className="sub-content css12594a6bbd1d0b6">香菇寮白毫最主要的品质特征是内含兰花香。兰花香是茶种本身的特质，但采制方法决定着香味的发挥程度，传统手工采制方法更利于兰花香韵的发挥。         
                   香菇寮白毫选用一芽一叶或一芽二叶初展的幼嫩芽叶，采后以5厘米的厚度，将青叶推放在簸箕上，约经4－6小时的摊凉后，再经杀青、揉捻、初烘、炒二青、复烘、滚袋六道工序制作而成。</div>
                   {/* <div style={{ textAlign: 'center' }}>
