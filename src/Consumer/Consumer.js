@@ -487,7 +487,7 @@ export default class Consumer extends Component {
                     <Carousel className="space-carousel"
                       frameOverflow="visible"
                       cellSpacing={10}
-                      slideWidth={0.7}
+                      slideWidth={0.5}
                       autoplay
                       dots={false}
                       infinite
@@ -498,23 +498,23 @@ export default class Consumer extends Component {
                           <img
                             src={require(`./tsimg1/${val}.jpg`)}
                             alt=""
-                            style={{ width: '47%', verticalAlign: 'top' }}
+                            style={{ width: '100%', verticalAlign: 'top' }}
                             onLoad={() => {
                               // fire window resize event to change height
                               window.dispatchEvent(new Event('resize'));
                               this.setState({ imgHeight: 'auto' });
                             }}
                           />
-                          <img
+                          {/* <img
                             src={require(`./tsimg2/${val}.jpg`)}
                             alt=""
-                            style={{ width: '47%', verticalAlign: 'top', marginLeft: '6%' }}
+                            style={{ width: '100%', verticalAlign: 'top', marginLeft: '6%' }}
                             onLoad={() => {
                               // fire window resize event to change height
                               window.dispatchEvent(new Event('resize'));
                               this.setState({ imgHeight: 'auto' });
                             }}
-                          />
+                          /> */}
                         </span>
                       ))}
                     </Carousel>
