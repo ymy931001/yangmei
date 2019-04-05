@@ -11,7 +11,7 @@ const requestIp = require('../axios/config.js');
 export default class Consumer extends Component {
   state = {
     data: ['1', '2', '3'],
-    datas: ['1', '2', '3','4','5','6'],
+    datas: ['1', '2', '3', '4', '5', '6'],
     imgHeight: 160,
   }
   componentDidMount = () => {
@@ -36,9 +36,9 @@ export default class Consumer extends Component {
       }
       else {
         this.setState({
-           cookTime:res.data.teaInfo.cookInfo.cookTime,
-           packTime:res.data.teaInfo.packInfo.packTime,
-           pickTime:res.data.teaInfo.pickInfo.pickTime,
+          cookTime: res.data.teaInfo.cookInfo.cookTime,
+          packTime: res.data.teaInfo.packInfo.packTime,
+          pickTime: res.data.teaInfo.pickInfo.pickTime,
         })
         const uri = new URI(document.location.href);
         const query = uri.query(true);
@@ -527,7 +527,7 @@ export default class Consumer extends Component {
                     </Carousel>
                   </WingBlank>
                   <div className="sub-content css12594a6bbd1d0b6">
-                  泰顺县彭溪镇香菇寮白毫原产地，利用浙江大学“物联网+区块链”技术，实现香菇寮白毫从产地环境监测、种植、制作、封装过程的数据追溯，让数据替茶说话，用科技守卫品质。
+                    泰顺县彭溪镇香菇寮白毫原产地，利用浙江大学“物联网+区块链”技术，实现香菇寮白毫从产地环境监测、种植、制作、封装过程的数据追溯，让数据替茶说话，用科技守卫品质。
                 </div >
                 </div>
                 <div className="section1">
@@ -569,7 +569,7 @@ export default class Consumer extends Component {
                     <img src={require('./tscook.jpg')} style={{ width: '100%', height: '2rem', float: 'left', }} />
                   </div>
                   <div className="sub-title3 css12594a6bbd1d0b6">传承传统制茶工艺</div>
-                  <div className="sub-content css12594a6bbd1d0b6">香菇寮白毫最主要的品质特征是内含兰花香。兰花香是茶种本身的特质，但采制方法决定着香味的发挥程度，传统手工采制方法更利于兰花香韵的发挥。         
+                  <div className="sub-content css12594a6bbd1d0b6">香菇寮白毫最主要的品质特征是内含兰花香。兰花香是茶种本身的特质，但采制方法决定着香味的发挥程度，传统手工采制方法更利于兰花香韵的发挥。
                   香菇寮白毫选用一芽一叶或一芽二叶初展的幼嫩芽叶，采后以5厘米的厚度，将青叶推放在簸箕上，约经4－6小时的摊凉后，再经杀青、揉捻、初烘、炒二青、复烘、滚袋六道工序制作而成。</div>
                   {/* <div style={{ textAlign: 'center' }}>
                     <a href="/consumer/tscook" className="Consumer-more css12594a6bbd1d0b6">实时图片</a>
@@ -631,21 +631,21 @@ export default class Consumer extends Component {
                       </div>
                     </Flex>
                   </Flex>
-                  <div style={{fontSize:".25rem",lineHeight:'.3rem'}}>采摘时间：{this.state.pcikTime}</div>
-                  <div style={{fontSize:".25rem",lineHeight:'.3rem'}}>炒制时间：{this.state.cookkTime}</div>
-                  <div style={{fontSize:".25rem",lineHeight:'.3rem'}}>包装时间：{this.state.packTime}</div>
+                  <div style={{ fontSize: ".25rem", lineHeight: '.4rem' }}>采摘时间：{this.state.pcikTime}</div>
+                  <div style={{ fontSize: ".25rem", lineHeight: '.4rem' }}>炒制时间：{this.state.cookkTime}</div>
+                  <div style={{ fontSize: ".25rem", lineHeight: '.4rem' }}>包装时间：{this.state.packTime}</div>
                 </div>
                 <div className="section4">
                   {/* <div><img src={require('./brand1.png')} alt="logo" style={{ width: '3rem', height: 'auto' }} /></div>
                   <div><img src={require('./brand3.png')} alt="logo" style={{ marginTop: '.25rem', width: '2.5rem', height: 'auto' }} /></div>
                   <div><img src={require('./brand2.png')} alt="logo" style={{ marginTop: '.2rem', width: '3rem', height: 'auto' }} /></div>
                   <div><img src={require('./brand4.png')} alt="logo" style={{ marginTop: '.2rem', width: '2rem', height: 'auto' }} /></div> */}
-                 <div className="Consumer-bottombar css12594a6bbd1d0b6" style={{fontSize:'.28rem',lineHeight:'.5rem'}}>
-                 <img src={require('./botlogo.png')} alt="logo"  style={{width:".25rem",height:'.25rem'}}/>
-                 泰顺县广和农业开发有限公司
+                  <div className="Consumer-bottombar css12594a6bbd1d0b6" style={{ fontSize: '.28rem', lineHeight: '.5rem' }}>
+                    <img src={require('./botlogo.png')} alt="logo" style={{ width: ".3rem", height: '.3rem' }} />
+                    泰顺县广和农业开发有限公司
                  </div>
-                  <div className="Consumer-bottombar css12594a6bbd1d0b6" style={{fontSize:'.28rem',lineHeight:'.5rem'}}>技术保障：温州移动 浙江大学</div>
-                  <div className="Consumer-bottombar css12594a6bbd1d0b6" style={{fontSize:'.28rem',lineHeight:'.5rem'}}>实施单位：钛比科技  </div>
+                  <div className="Consumer-bottombar css12594a6bbd1d0b6" style={{ fontSize: '.28rem', lineHeight: '.5rem' }}>技术保障：温州移动 浙江大学</div>
+                  <div className="Consumer-bottombar css12594a6bbd1d0b6" style={{ fontSize: '.28rem', lineHeight: '.5rem' }}>实施单位：钛比科技  </div>
                 </div>
               </div>
             });
