@@ -636,8 +636,9 @@ export default class Consumer extends Component {
                   <div style={{ fontSize: ".25rem", lineHeight: '.4rem' }}>采摘时间：{this.state.pcikTime}</div>
                   <div style={{ fontSize: ".25rem", lineHeight: '.4rem' }}>炒制时间：{this.state.cookkTime}</div>
                   <div style={{ fontSize: ".25rem", lineHeight: '.4rem' }}>包装时间：{this.state.packTime}</div>
-                  <div className="section4">
-                  </div>
+                </div>
+                <div className="section4">
+
                   {/* <div><img src={require('./brand1.png')} alt="logo" style={{ width: '3rem', height: 'auto' }} /></div>
                   <div><img src={require('./brand3.png')} alt="logo" style={{ marginTop: '.25rem', width: '2.5rem', height: 'auto' }} /></div>
                   <div><img src={require('./brand2.png')} alt="logo" style={{ marginTop: '.2rem', width: '3rem', height: 'auto' }} /></div>
