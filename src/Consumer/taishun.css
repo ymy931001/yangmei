@@ -212,7 +212,8 @@
 #taishun_body .section4 img{
   width: 1.45rem;
   height: 1.45rem;
-  margin-top: .66rem;
+  vertical-align: middle;
+  margin-right: .1rem;
 }
 #taishun_body .section4 p{
   font-size: .25rem;
@@ -222,7 +223,7 @@
 #taishun_body .section5{
   width: 100%;
   text-align: center;
-  height: 1.5rem;
+  height: 1.2rem;
   background:url(http://maoyang.terabits.cn/section.jpg) no-repeat center center;
   background-size:cover; 
 }

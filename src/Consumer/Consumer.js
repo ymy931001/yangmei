@@ -634,11 +634,10 @@ export default class Consumer extends Component {
                 </div>
                 <div className="section5">
                   <div style={{ fontSize: ".25rem", lineHeight: '.4rem' }}>采摘时间：{this.state.pcikTime}</div>
-                  <div style={{ fontSize: ".25rem", lineHeight: '.4rem' }}>炒制时间：{this.state.cookkTime}</div>
+                  <div style={{ fontSize: ".25rem", lineHeight: '.4rem' }}>炒制时间：{this.state.cookTime}</div>
                   <div style={{ fontSize: ".25rem", lineHeight: '.4rem' }}>包装时间：{this.state.packTime}</div>
                 </div>
                 <div className="section4">
-        
                   <div className="Consumer-bottombar css12594a6bbd1d0b6" style={{ fontSize: '.28rem', lineHeight: '.5rem' }}>
                     <img src={require('./botlogo.png')} alt="logo" style={{ width: ".3rem", height: '.3rem' }} />
                     泰顺县广和农业开发有限公司
