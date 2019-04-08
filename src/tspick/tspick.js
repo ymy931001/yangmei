@@ -10,7 +10,14 @@ export default class Consumer extends Component {
       gardenID: localStorage.getItem('gardenName'),
       pickTime: localStorage.getItem('pickTime'), 
       img: localStorage.getItem('pickImg'),
+    },function(){
+      if(this.state.img===null||this.state.img===""){
+        this.setState({
+          img:'http://maoyang.terabits.cn/null.png'
+        })
+      }
     });
+
   }
 
   render() {
