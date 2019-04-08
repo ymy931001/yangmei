@@ -1,7 +1,7 @@
 body{
 
 }
-.Cook-body{
+.tsCook-body{
   position: absolute;
   top: 0;
   left: 0;
@@ -9,8 +9,8 @@ body{
   width: 100%;
   min-height: 100%;
   height: auto;
-  background: url(cookbj.png) no-repeat;
-  background-size: 100%;
+  background: url(http://maoyang.terabits.cn/section.jpg) no-repeat;
+  background-size: cover;
 }
 .address{
   margin-top: .55rem;
