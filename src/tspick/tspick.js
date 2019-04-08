@@ -4,18 +4,16 @@ import './tspick.css';
 export default class Consumer extends Component {
   state = {
   }
+  
   componentDidMount = () => {
+    if( localStorage.getItem('pickImg')===""|| localStorage.getItem('pickImg')===null){
+      localStorage.setItem('pickImg','http://maoyang.terabits.cn/null.png')
+    }
     document.title = "泰顺县广和农业开发有限公司—让数据说话";
     this.setState({
       gardenID: localStorage.getItem('gardenName'),
       pickTime: localStorage.getItem('pickTime'), 
       img: localStorage.getItem('pickImg'),
-    },function(){
-      if(this.state.img===null||this.state.img===""){
-        this.setState({
-          img:'http://maoyang.terabits.cn/null.png'
-        })
-      }
     });
 
   }
