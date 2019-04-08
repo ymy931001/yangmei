@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './jspick.css';
+import './tspick.css';
 
 export default class Consumer extends Component {
   state = {

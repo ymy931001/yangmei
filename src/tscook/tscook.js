@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './jscook.css';
+import './tscook.css';
 
 export default class Consumer extends Component {
   state = {
