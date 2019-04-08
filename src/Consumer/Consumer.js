@@ -561,7 +561,7 @@ export default class Consumer extends Component {
                   <div className="sub-content css12594a6bbd1d0b6"
                   >香菇寮白毫以细嫩鲜爽著称，采摘一般以一芽一叶为标准，采用“提手采”，即用拇指和食指捏住芽叶，轻轻向上提采或折断，使茶叶完整成朵。遵循清晨、有露水、阴雨天、正当午时不采的原则，保证鲜叶质量。</div>
                   <div style={{ textAlign: 'center' }}>
-                    <a href="/consumer/jspick" className="Consumer-more css12594a6bbd1d0b6">实时图片</a>
+                    <a href="/consumer/tspick" className="Consumer-more css12594a6bbd1d0b6">实时图片</a>
                   </div>
                 </div>
                 <div className="section2">
