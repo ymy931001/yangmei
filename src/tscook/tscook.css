@@ -34,9 +34,11 @@ body{
 }
 #tscook  .Cook-img{
   margin-top:1.07rem;
-  width: 100%;
-  height:3.5rem;
-  position: relative;
+  width: 65%;
+  height:auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #tscook  .Cook-imgtext{
   position: absolute;
@@ -44,7 +46,7 @@ body{
   line-height: .39rem;
   background: url(bj.png) repeat-x;
   color: white;
-  width: 100%;
+  width: 65;
   z-index: 99;
   text-align: right;
   font-size: .19rem;
