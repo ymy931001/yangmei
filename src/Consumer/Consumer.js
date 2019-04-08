@@ -560,9 +560,9 @@ export default class Consumer extends Component {
                   <div className="sub-title3 css12594a6bbd1d0b6" >手工采摘品质保证</div>
                   <div className="sub-content css12594a6bbd1d0b6"
                   >香菇寮白毫以细嫩鲜爽著称，采摘一般以一芽一叶为标准，采用“提手采”，即用拇指和食指捏住芽叶，轻轻向上提采或折断，使茶叶完整成朵。遵循清晨、有露水、阴雨天、正当午时不采的原则，保证鲜叶质量。</div>
-                  {/* <div style={{ textAlign: 'center' }}>
+                  <div style={{ textAlign: 'center' }}>
                     <a href="/consumer/jspick" className="Consumer-more css12594a6bbd1d0b6">实时图片</a>
-                  </div> */}
+                  </div>
                 </div>
                 <div className="section2">
                   <div className="pick" style={{ marginTop: '0rem', position: 'relative' }}>
@@ -571,9 +571,9 @@ export default class Consumer extends Component {
                   <div className="sub-title3 css12594a6bbd1d0b6">传承传统制茶工艺</div>
                   <div className="sub-content css12594a6bbd1d0b6">香菇寮白毫最主要的品质特征是内含兰花香。兰花香是茶种本身的特质，但采制方法决定着香味的发挥程度，传统手工采制方法更利于兰花香韵的发挥。
                   香菇寮白毫选用一芽一叶或一芽二叶初展的幼嫩芽叶，采后以5厘米的厚度，将青叶推放在簸箕上，约经4－6小时的摊凉后，再经杀青、揉捻、初烘、炒二青、复烘、滚袋六道工序制作而成。</div>
-                  {/* <div style={{ textAlign: 'center' }}>
+                  <div style={{ textAlign: 'center' }}>
                     <a href="/consumer/tscook" className="Consumer-more css12594a6bbd1d0b6">实时图片</a>
-                  </div> */}
+                  </div>
                   {/* <div className="pick2">
                     <img src={require('./packing2.png')} style={{ width: '100%', height: '2.73rem', float: 'left', }} />
 
