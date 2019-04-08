@@ -19,7 +19,6 @@ export default class Consumer extends Component {
   render() {
     return (
       <div className="tsCook-body">
-          
           <div className="address css12594a6bbd1d0b6">实景炒制</div>
           <div className="clearfix">
             <div className="Cook-text">
