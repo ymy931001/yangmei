@@ -15,7 +15,7 @@ export default class Consumer extends Component {
 
   render() {
     return (
-      <div id="pickbody">
+      <div id="tsbody">
       <div className="Cook-body">   
           <div className="address css12594a6bbd1d0b6">实景采摘地点</div>
           {/* <div className="address css12594a6bbd1d0b6"></div> */}

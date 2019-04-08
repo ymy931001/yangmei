@@ -1,7 +1,7 @@
 body{
 
 }
-#pickbody .Cook-body{
+#tsbody .Cook-body{
   position: absolute;
   top: 0;
   left: 0;
@@ -9,13 +9,13 @@ body{
   width: 100%;
   min-height: 100%;
   height: auto;
-  background: url(cookbj.png) no-repeat;
-  background-size: 100%;
+  background: url(http://maoyang.terabits.cn/section.jpg) no-repeat;
+  background-size: cover;
 }
-#pickbody .Cook-text{
+#tsbody .Cook-text{
   margin-top: .39rem;
 }
-#pickbody .Cook-text img{
+#tsbody .Cook-text img{
   margin-right: .2rem;
   float: left;
   margin-left: .28rem;
@@ -23,13 +23,13 @@ body{
   height:1.7rem;
   z-index: 4; 
 }
-#pickbody .Cook-img{
+#tsbody .Cook-img{
   margin-top:.46rem;
   width: 100%;
   height:3.5rem;
   position: relative;
 }
-#pickbody .Cook-imgtext{
+#tsbody .Cook-imgtext{
   position: absolute;
   height: .39rem;
   line-height: .39rem;
@@ -41,24 +41,24 @@ body{
   font-size: .19rem;
   bottom: 0;
 }
-#pickbody .Cook-imgtext span{
+#tsbody .Cook-imgtext span{
   margin-right: .29rem;
   margin-left: .1rem;
 }
-#pickbody .Cook-imgimg{
+#tsbody .Cook-imgimg{
   width: 100%;
   height:3.5rem; 
 }
-#pickbody .Cook-introduction{
+#tsbody .Cook-introduction{
   font-size: .19rem;
   line-height: .265rem;
   float: left;
   width: 4.35rem;
 }
-#pickbody .pack-main{
+#tsbody .pack-main{
   height: 2.3rem;
 }
-#pickbody .cook-top{
+#tsbody .cook-top{
   height: .39rem;
   text-align: center;
   width: 100%;
@@ -66,14 +66,14 @@ body{
   font-size: .19rem;
   line-height: .39rem;
 }
-#pickbody .cook-author{
+#tsbody .cook-author{
   font-family: PingFangSC-Medium;
   font-size: .28rem;
   font-weight: bold;
   color: #222222;
   margin-right: .19rem;
 }
-#pickbody .clearfix:after{
+#tsbody .clearfix:after{
 	visibility: hidden;
 	display: block;
 	font-size: 0;
@@ -81,7 +81,7 @@ body{
 	clear: both;
 	height: 0;  
 }
-#pickbody .cook-time{
+#tsbody .cook-time{
   font-family: PingFangSC-Regular;
   font-size: .19rem;
   color: #222222;
@@ -90,10 +90,10 @@ body{
 
 }
 @media screen and (min-width: 640px) {
-  #pickbody .Cook-text{
+  #tsbody .Cook-text{
     margin-top: .65rem;
   }
-  #pickbody .Cook-text img{
+  #tsbody .Cook-text img{
     margin-right: .2rem;
     float: left;
     margin-left: .31rem;
@@ -101,22 +101,22 @@ body{
     height:2.1rem;
     z-index: 4; 
   }
-  #pickbody .Cook-introduction {
+  #tsbody .Cook-introduction {
     font-size: .25rem;
     line-height: .35rem;
     float: left;
     width: 5.35rem;
   }
-  #pickbody .Cook-img{
+  #tsbody .Cook-img{
     margin-top:.9rem;
     height:4.45rem;
   }
-  #pickbody .Cook-imgtext {
+  #tsbody .Cook-imgtext {
     height: .5rem;
     line-height: .5rem;
     font-size: .22rem;
 }
-#pickbody .Cook-imgimg {
+#tsbody .Cook-imgimg {
     height:4.45rem;
   }
 }
