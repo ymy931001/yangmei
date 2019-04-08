@@ -6,9 +6,6 @@ export default class Consumer extends Component {
   }
   
   componentDidMount = () => {
-    if( localStorage.getItem('pickImg')===""|| localStorage.getItem('pickImg')===null){
-      localStorage.setItem('pickImg','http://maoyang.terabits.cn/null.png')
-    }
     document.title = "泰顺县广和农业开发有限公司—让数据说话";
     this.setState({
       gardenID: localStorage.getItem('gardenName'),

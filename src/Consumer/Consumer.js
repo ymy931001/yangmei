@@ -656,7 +656,12 @@ export default class Consumer extends Component {
           localStorage.setItem('cookImg', requestIp.requestIp + cook.cookImage);
           localStorage.setItem('cookInfoImg', requestIp.requestIp + cook.cookInfoImage);
           localStorage.setItem('pickTime', pick.pickTime);
-          localStorage.setItem('pickImg', requestIp.requestIp + pick.pickInfoImage);
+          if(pick.pickInfoImage===""||pick.pickInfoImage===null){
+            localStorage.setItem('pickImg', 'http://maoyang.terabits.cn/null.png');
+          }else{
+            localStorage.setItem('pickImg', requestIp.requestIp + pick.pickInfoImage);
+          }
+          
           localStorage.setItem('gardenName', garden.name);
 
           echarts.init(document.getElementById('hum-chart')).setOption({
