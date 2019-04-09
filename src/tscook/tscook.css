@@ -37,6 +37,7 @@ body{
   width: 100%;
   height:auto;
   display: flex;
+  position: relative;
   justify-content: center;
   align-items: center;
 }
