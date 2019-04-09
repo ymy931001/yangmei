@@ -633,7 +633,7 @@ export default class Consumer extends Component {
                   </Flex>
                 </div>
                 <div className="section5">
-                  <div style={{ fontSize: ".25rem", lineHeight: '.4rem' }}>采摘时间：{this.state.pcikTime}</div>
+                  <div style={{ fontSize: ".25rem", lineHeight: '.4rem' }}>采摘时间：{this.state.pickTime}</div>
                   <div style={{ fontSize: ".25rem", lineHeight: '.4rem' }}>炒制时间：{this.state.cookTime}</div>
                   <div style={{ fontSize: ".25rem", lineHeight: '.4rem' }}>包装时间：{this.state.packTime}</div>
                 </div>
