@@ -12,7 +12,7 @@ export default class Consumer extends Component {
   state = {
     data: ['1', '2', '3'],
     datas: ['1', '2', '3', '4', '5', '6'],
-    jsdata:['1','2','3','4'],
+    jsdata: ['1', '2', '3', '4', '5', '6'],
     imgHeight: 160,
   }
   componentDidMount = () => {
