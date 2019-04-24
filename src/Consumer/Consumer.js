@@ -409,8 +409,42 @@ export default class Consumer extends Component {
                     <a href="/consumer/jscook" className="Consumer-more css12594a6bbd1d0b6">实时图片</a>
                   </div>
                   <div className="pick2">
-                    <img src={require('./packing2.png')} style={{ width: '100%', height: '2.73rem', float: 'left', }} />
-
+                    <WingBlank>
+                      <Carousel className="space-carousel"
+                        frameOverflow="visible"
+                        cellSpacing={10}
+                        slideWidth={0.5}
+                        autoplay
+                        dots={false}
+                        infinite
+                        afterChange={index => this.setState({ slideIndex: index })}
+                      >
+                        {this.state.data.map((val, index) => (
+                          <span>
+                            <img
+                              src={require(`./img3/${val}.png`)}
+                              alt=""
+                              style={{ width: '47%', verticalAlign: 'top' }}
+                              onLoad={() => {
+                                // fire window resize event to change height
+                                window.dispatchEvent(new Event('resize'));
+                                this.setState({ imgHeight: 'auto' });
+                              }}
+                            />
+                            <img
+                              src={require(`./img4/${val}.png`)}
+                              alt=""
+                              style={{ width: '47%', verticalAlign: 'top', marginLeft: '6%' }}
+                              onLoad={() => {
+                                // fire window resize event to change height
+                                window.dispatchEvent(new Event('resize'));
+                                this.setState({ imgHeight: 'auto' });
+                              }}
+                            />
+                          </span>
+                        ))}
+                      </Carousel>
+                    </WingBlank>
                   </div>
                   <div className="sub-title3 css12594a6bbd1d0b6">用科技包裹风味与历史</div>
                   <div className="sub-content css12594a6bbd1d0b6">使用塑料封独立包装最大程度保持径山茶的正宗风味，用古朴与科技相融的包装带您体验千年古茶与现代科技的完美融合。</div>
@@ -656,12 +690,12 @@ export default class Consumer extends Component {
           localStorage.setItem('cookImg', requestIp.requestIp + cook.cookImage);
           localStorage.setItem('cookInfoImg', requestIp.requestIp + cook.cookInfoImage);
           localStorage.setItem('pickTime', pick.pickTime);
-          if(pick.pickInfoImage===""||pick.pickInfoImage===null){
+          if (pick.pickInfoImage === "" || pick.pickInfoImage === null) {
             localStorage.setItem('pickImg', 'http://maoyang.terabits.cn/null.png');
-          }else{
+          } else {
             localStorage.setItem('pickImg', requestIp.requestIp + pick.pickInfoImage);
           }
-          
+
           localStorage.setItem('gardenName', garden.name);
 
           echarts.init(document.getElementById('hum-chart')).setOption({
