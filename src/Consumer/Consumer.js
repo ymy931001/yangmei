@@ -414,7 +414,7 @@ export default class Consumer extends Component {
                       <Carousel className="space-carousel"
                         frameOverflow="visible"
                         cellSpacing={10}
-                        slideWidth={0.33}
+                        slideWidth={0.75}
                         autoplay
                         dots={false}
                         infinite
@@ -425,7 +425,7 @@ export default class Consumer extends Component {
                             <img
                               src={require(`./img5/${val}.png`)}
                               alt=""
-                              style={{ width: '47%', verticalAlign: 'top' }}
+                              style={{ width: '50%', verticalAlign: 'top' }}
                               onLoad={() => {
                                 // fire window resize event to change height
                                 window.dispatchEvent(new Event('resize'));
@@ -435,7 +435,7 @@ export default class Consumer extends Component {
                             <img
                               src={require(`./img6/${val}.png`)}
                               alt=""
-                              style={{ width: '47%', verticalAlign: 'top', marginLeft: '6%' }}
+                              style={{ width: '50%', verticalAlign: 'top', marginLeft: '6%' }}
                               onLoad={() => {
                                 // fire window resize event to change height
                                 window.dispatchEvent(new Event('resize'));
