@@ -12,6 +12,7 @@ export default class Consumer extends Component {
   state = {
     data: ['1', '2', '3'],
     datas: ['1', '2', '3', '4', '5', '6'],
+    jsdata:['1','2'],
     imgHeight: 160,
   }
   componentDidMount = () => {
@@ -419,7 +420,7 @@ export default class Consumer extends Component {
                         infinite
                         afterChange={index => this.setState({ slideIndex: index })}
                       >
-                        {this.state.data.map((val, index) => (
+                        {this.state.jsdata.map((val, index) => (
                           <span>
                             <img
                               src={require(`./img5/${val}.png`)}
