@@ -12,7 +12,7 @@ export default class Consumer extends Component {
   state = {
     data: ['1', '2', '3'],
     datas: ['1', '2', '3', '4', '5', '6'],
-    jsdata:['1','2'],
+    jsdata:['1','2','3','4'],
     imgHeight: 160,
   }
   componentDidMount = () => {
@@ -425,17 +425,7 @@ export default class Consumer extends Component {
                             <img
                               src={require(`./img5/${val}.png`)}
                               alt=""
-                              style={{ width: '50%', verticalAlign: 'top' }}
-                              onLoad={() => {
-                                // fire window resize event to change height
-                                window.dispatchEvent(new Event('resize'));
-                                this.setState({ imgHeight: 'auto' });
-                              }}
-                            />
-                            <img
-                              src={require(`./img6/${val}.png`)}
-                              alt=""
-                              style={{ width: '50%', verticalAlign: 'top', marginLeft: '6%' }}
+                              style={{ width: '100%', verticalAlign: 'top' }}
                               onLoad={() => {
                                 // fire window resize event to change height
                                 window.dispatchEvent(new Event('resize'));
