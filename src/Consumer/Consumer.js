@@ -414,7 +414,7 @@ export default class Consumer extends Component {
                       <Carousel className="space-carousel"
                         frameOverflow="visible"
                         cellSpacing={10}
-                        slideWidth={0.75}
+                        slideWidth={0.8}
                         autoplay
                         dots={false}
                         infinite
