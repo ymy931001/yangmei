@@ -413,7 +413,7 @@ export default class Consumer extends Component {
                       <Carousel className="space-carousel"
                         frameOverflow="visible"
                         cellSpacing={10}
-                        slideWidth={0.5}
+                        slideWidth={0.33}
                         autoplay
                         dots={false}
                         infinite
@@ -422,7 +422,7 @@ export default class Consumer extends Component {
                         {this.state.data.map((val, index) => (
                           <span>
                             <img
-                              src={require(`./img3/${val}.png`)}
+                              src={require(`./img5/${val}.png`)}
                               alt=""
                               style={{ width: '47%', verticalAlign: 'top' }}
                               onLoad={() => {
@@ -432,7 +432,7 @@ export default class Consumer extends Component {
                               }}
                             />
                             <img
-                              src={require(`./img4/${val}.png`)}
+                              src={require(`./img6/${val}.png`)}
                               alt=""
                               style={{ width: '47%', verticalAlign: 'top', marginLeft: '6%' }}
                               onLoad={() => {

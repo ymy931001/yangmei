@@ -163,7 +163,7 @@
 }
 #jingshan_body .pick2{
   margin-top: .3rem;
-  height: 2.7rem;
+  height: 2.3rem;
 }
 #jingshan_body .pick2:after{
 	visibility: hidden;
@@ -186,7 +186,7 @@
 #jingshan_body .section2{
   height: 10rem;
   background:url(http://maoyang.terabits.cn/section.jpg) no-repeat center center;
-  background-size:100%; 
+  background-size:cover; 
 }
 /*数据*/
 #jingshan_body .section3{
