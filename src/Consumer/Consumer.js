@@ -504,7 +504,6 @@ export default class Consumer extends Component {
               </div>
             });
           }
-
           if (teaType === "泰顺") {
             document.title = "泰顺县广和农业开发有限公司—让数据说话";
             this.setState({
@@ -673,7 +672,174 @@ export default class Consumer extends Component {
               </div>
             });
           }
+          if (teaType === "杜家杨梅") {
+            document.title = "杜家村杨梅—让数据说话";
+            this.setState({
+              content: <div style={{ width: '100%' }} id="taishun_body">
+                <div className="banner">
+                  <img src={require('./bannerym.png')} />
+                </div>
+                <div className="section">
+                  <div className="sub-title css12594a6bbd1d0b6">杜家村杨梅</div>
+                  <div className="sub-title1 css12594a6bbd1d0b6">全球唯一追溯ID: <span>{data.teaInfo.teaID}</span></div>
+                  <WingBlank>
+                    <Carousel className="space-carousel"
+                      frameOverflow="visible"
+                      cellSpacing={10}
+                      slideWidth={0.33}
+                      autoplay
+                      dots={false}
+                      infinite
+                      afterChange={index => this.setState({ slideIndex: index })}
+                    >
+                      {this.state.datas.map((val, index) => (
+                        <span>
+                          <img
+                            src={require(`./tsimg1/${val}.jpg`)}
+                            alt=""
+                            style={{ width: '100%', verticalAlign: 'top' }}
+                            onLoad={() => {
+                              // fire window resize event to change height
+                              window.dispatchEvent(new Event('resize'));
+                              this.setState({ imgHeight: 'auto' });
+                            }}
+                          />
+                          {/* <img
+                            src={require(`./tsimg2/${val}.jpg`)}
+                            alt=""
+                            style={{ width: '100%', verticalAlign: 'top', marginLeft: '6%' }}
+                            onLoad={() => {
+                              // fire window resize event to change height
+                              window.dispatchEvent(new Event('resize'));
+                              this.setState({ imgHeight: 'auto' });
+                            }}
+                          /> */}
+                        </span>
+                      ))}
+                    </Carousel>
+                  </WingBlank>
+                  <div className="sub-content css12594a6bbd1d0b6">
+                    泰顺县彭溪镇香菇寮白毫原产地，利用浙江大学“物联网+区块链”技术，实现香菇寮白毫从产地环境监测、种植、制作、封装过程的数据追溯，让数据替茶说话，用科技守卫品质。
+                </div >
+                </div>
+                <div className="section1">
+                  <div className="sub-title5 css12594a6bbd1d0b6">您手中的茶叶来自于</div>
+                  <div className="comefrom">
+                    <div className="map">
+                      <img
+                        className="mapimg"
+                        src={require('./map2.jpg')}
+                        alt=""
+                        onLoad={() => {
+                          window.dispatchEvent(new Event('resize'));
+                          this.setState({ imgHeight: 'auto' });
+                        }}
+                      />
+                    </div>
+                    <div className="map-right">
+                      <div style={{ fontSize: '0.22rem', marginBottom: '0.1rem', textAlign: 'center' }} className="css12594a6bbd1d0b6">{garden.name}</div>
+                      <div style={{ textAlign: 'center', fontSize: '0.19rem' }} className="css12594a6bbd1d0b6">东经：{garden.details.latitude} 北纬：{garden.details.longitude}</div>
+                      <div className="map-text css12594a6bbd1d0b6">
+                        香菇寮，位于彭溪镇海拔四百多米的山岙之中，荟蔚苍萃，停云住霭，云烟起时犹如仙境，是孕育香菇寮白毫的一方净土。据多次移植试验证实，这里的地理环境对香菇寮白毫的种植具有不可复制性，其他地方尚无法培育出纯正味道的香菇寮白毫，因此种植规模非常有限，产量稀少，在市场上“一茶难求”，极为珍贵。
+                      </div>
+                    </div>
+                    <div style={{ fontSize: "0.19rem", float: 'left', width: '96%', lineHeight: '.265rem', marginTop: '.05rem' }}>
+                      香菇寮白毫是彭溪原产的珍稀茶种，省优质名茶，以兰花香品质独具特色，且据多次移植试验证实，这一特质在其他种植区域无法复制。中国第一茶院士陈宗懋院士多次到彭溪实地品鉴，赞誉其为茶中珍品。1999年曾获杭州国际茶博会金奖。               香菇寮白毫幽香似兰、周身白毫，茶中内含物质丰富，氨基酸含量高，经久耐泡，第二泡内质发挥达到顶峰，滋味鲜爽，回味甘甜，口感最佳。                    此茶为迟芽种，在泰顺的茶叶品种中，开园时间最晚，一般采制于清明前后。将明前茶奉为上品的选茶观念并不适用于香菇寮白毫，选择香菇寮应遵循“求优不求早”的原则。</div>
+                  </div>
+                  <div className="pick1">
+                    <img src={require('./tspick.png')} style={{ width: '100%', height: '2.07rem', verticalAlign: 'top', float: 'left', }} />
+                  </div>
+                  <div className="sub-title3 css12594a6bbd1d0b6" >手工采摘品质保证</div>
+                  <div className="sub-content css12594a6bbd1d0b6"
+                  >香菇寮白毫以细嫩鲜爽著称，采摘一般以一芽一叶为标准，采用“提手采”，即用拇指和食指捏住芽叶，轻轻向上提采或折断，使茶叶完整成朵。遵循清晨、有露水、阴雨天、正当午时不采的原则，保证鲜叶质量。</div>
+                  <div style={{ textAlign: 'center' }}>
+                    <a href="/consumer/tspick" className="Consumer-more css12594a6bbd1d0b6">实时图片</a>
+                  </div>
+                </div>
+                <div className="section2">
+                  <div className="pick" style={{ marginTop: '0rem', position: 'relative' }}>
+                    <img src={require('./tscook.jpg')} style={{ width: '100%', height: '2rem', float: 'left', }} />
+                  </div>
+                  <div className="sub-title3 css12594a6bbd1d0b6">传承传统制茶工艺</div>
+                  <div className="sub-content css12594a6bbd1d0b6">香菇寮白毫最主要的品质特征是内含兰花香。兰花香是茶种本身的特质，但采制方法决定着香味的发挥程度，传统手工采制方法更利于兰花香韵的发挥。
+                  香菇寮白毫选用一芽一叶或一芽二叶初展的幼嫩芽叶，采后以5厘米的厚度，将青叶推放在簸箕上，约经4－6小时的摊凉后，再经杀青、揉捻、初烘、炒二青、复烘、滚袋六道工序制作而成。</div>
+                  <div style={{ textAlign: 'center' }}>
+                    <a href="/consumer/tscook" className="Consumer-more css12594a6bbd1d0b6">实时图片</a>
+                  </div>
+                  {/* <div className="pick2">
+                    <img src={require('./packing2.png')} style={{ width: '100%', height: '2.73rem', float: 'left', }} />
 
+                  </div>
+                  <div className="sub-title3 css12594a6bbd1d0b6">用科技包裹风味与历史</div>
+                  <div className="sub-content css12594a6bbd1d0b6">使用塑料封独立包装最大程度保持白毫茶的正宗风味，用古朴与科技相融的包装带您体验千年古茶与现代科技的完美融合。</div> */}
+                </div>
+                <div className="section3">
+                  <div className="sub-title2 css12594a6bbd1d0b6">让数据为白毫茶发声</div>
+                  <Flex justify="center" direction="column" >
+                    <Flex justify="center">
+                      <div className="Consumer-dataimg css12594a6bbd1d0b6"><span className="pm-data">{pmtext}</span></div>
+                      <div className="Consumer-data mt3">
+                        <div className="data-title css12594a6bbd1d0b6" >PM2.5：<span style={{ fontSize: '.22rem' }}>{pm25}</span><span style={{ fontSize: '.22rem' }}>𝜇𝑔/𝑚<sup>3</sup></span>
+                        </div>
+                        <WhiteSpace />
+                        <div className="Consumer-datadetail css12594a6bbd1d0b6">
+                          PM2.5是衡量茶园空气质量和生态水平的重要参数，良好的空气质量将使茶叶的氨基酸和水浸出物含量维持在适宜水平，保证茶叶口感和滋味的醇正。
+                      </div>
+                      </div>
+                    </Flex>
+                    <Flex justify="center">
+                      <div className="Consumer-dataimg"><span className="light-data">{lighttext}</span></div>
+                      <div className="Consumer-data mt2">
+                        <div className="data-title css12594a6bbd1d0b6">光照：<span>{light}</span><span>𝑙𝑥</span></div>
+                        <WhiteSpace />
+                        <div className="Consumer-datadetail css12594a6bbd1d0b6">
+                          适宜、充足的光照可以促进光合产物的形成，使茶树生长更加茁壮，同时也会影响茶叶中咖啡碱的含量，令茶叶品质更佳。
+                      </div>
+                      </div>
+                    </Flex>
+                    <Flex justify="center">
+                      <div className="Consumer-dataimg" id="tem-chart">
+                      </div>
+                      <div className="Consumer-data mt4">
+                        <div className="data-position css12594a6bbd1d0b6">数据点/3天</div>
+                        <div className="data-title css12594a6bbd1d0b6">土壤温度</div>
+                        <WhiteSpace />
+                        <div className="Consumer-datadetail css12594a6bbd1d0b6">
+                          适宜的土壤温度能够促进土壤的呼吸作用，使茶树获得更多营养、健康成长。
+                      </div>
+                      </div>
+                    </Flex>
+                    <Flex justify="center">
+                      <div className="Consumer-dataimg" id="hum-chart">
+
+                      </div>
+                      <div className="Consumer-data mt1">
+                        <div className="data-position1 css12594a6bbd1d0b6">数据点/3天</div>
+                        <div className="data-title css12594a6bbd1d0b6">土壤湿度</div>
+                        <WhiteSpace />
+                        <div className="Consumer-datadetail css12594a6bbd1d0b6">
+                          土壤湿度是影响茶树生长速度的关键因素，适宜的土壤湿度可以将茶叶中的氨基酸含量维持在适宜水平，使茶叶口感更加鲜爽。
+                      </div>
+                      </div>
+                    </Flex>
+                  </Flex>
+                </div>
+                <div className="section5">
+                  <div style={{ fontSize: ".25rem", lineHeight: '.4rem' }}>采摘时间：{this.state.pickTime}</div>
+                  <div style={{ fontSize: ".25rem", lineHeight: '.4rem' }}>炒制时间：{this.state.cookTime}</div>
+                  <div style={{ fontSize: ".25rem", lineHeight: '.4rem' }}>包装时间：{this.state.packTime}</div>
+                </div>
+                <div className="section4">
+                  <div className="Consumer-bottombar css12594a6bbd1d0b6" style={{ fontSize: '.28rem', lineHeight: '.5rem' }}>
+                    <img src={require('./botlogo.png')} alt="logo" style={{ width: ".3rem", height: '.3rem' }} />
+                    泰顺县广和农业开发有限公司
+                 </div>
+                  <div className="Consumer-bottombar css12594a6bbd1d0b6" style={{ fontSize: '.28rem', lineHeight: '.5rem' }}>技术保障：温州移动 浙江大学</div>
+                  <div className="Consumer-bottombar css12594a6bbd1d0b6" style={{ fontSize: '.28rem', lineHeight: '.5rem' }}>实施单位：钛比科技  </div>
+                </div>
+              </div>
+            });
+          }
           localStorage.setItem('cookIntroduction', cook.introduction);
           localStorage.setItem('cookTime', cook.cookTime);
           localStorage.setItem('cookName', cook.name);
