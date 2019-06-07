@@ -704,16 +704,6 @@ export default class Consumer extends Component {
                               this.setState({ imgHeight: 'auto' });
                             }}
                           />
-                          {/* <img
-                            src={require(`./tsimg2/${val}.jpg`)}
-                            alt=""
-                            style={{ width: '100%', verticalAlign: 'top', marginLeft: '6%' }}
-                            onLoad={() => {
-                              // fire window resize event to change height
-                              window.dispatchEvent(new Event('resize'));
-                              this.setState({ imgHeight: 'auto' });
-                            }}
-                          /> */}
                         </span>
                       ))}
                     </Carousel>
