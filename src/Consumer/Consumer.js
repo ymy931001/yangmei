@@ -760,7 +760,7 @@ export default class Consumer extends Component {
                   <img src={require('./ympack.png')} style={{ width: '100%', height: '2.73rem', float: 'left', }} />
                 </div>
                 <div className="sub-title3 css12594a6bbd1d0b6">用科技包裹风味与历史</div>
-                {/* <div className="section3">
+                <div className="section3">
                   <div className="sub-title2 css12594a6bbd1d0b6">让数据为杜家杨梅发声</div>
                   <Flex justify="center" direction="column" >
                     <Flex justify="center">
@@ -770,7 +770,7 @@ export default class Consumer extends Component {
                         </div>
                         <WhiteSpace />
                         <div className="Consumer-datadetail css12594a6bbd1d0b6">
-                          PM2.5是衡量茶园空气质量和生态水平的重要参数，良好的空气质量将使茶叶的氨基酸和水浸出物含量维持在适宜水平，保证茶叶口感和滋味的醇正。
+                          PM2.5是衡量杨梅园空气质量和生态水平的重要参数，良好的空气质量将使杨梅的氨基酸和水浸出物含量维持在适宜水平，保证杨梅口感和滋味的醇正。
                       </div>
                       </div>
                     </Flex>
@@ -780,7 +780,7 @@ export default class Consumer extends Component {
                         <div className="data-title css12594a6bbd1d0b6">光照：<span>{light}</span><span>𝑙𝑥</span></div>
                         <WhiteSpace />
                         <div className="Consumer-datadetail css12594a6bbd1d0b6">
-                          适宜、充足的光照可以促进光合产物的形成，使茶树生长更加茁壮，同时也会影响茶叶中咖啡碱的含量，令茶叶品质更佳。
+                          适宜、充足的光照可以促进光合产物的形成，使杨梅树生长更加茁壮，同时也会影响杨梅中咖啡碱的含量，令杨梅品质更佳。
                       </div>
                       </div>
                     </Flex>
@@ -792,7 +792,7 @@ export default class Consumer extends Component {
                         <div className="data-title css12594a6bbd1d0b6">土壤温度</div>
                         <WhiteSpace />
                         <div className="Consumer-datadetail css12594a6bbd1d0b6">
-                          适宜的土壤温度能够促进土壤的呼吸作用，使茶树获得更多营养、健康成长。
+                          适宜的土壤温度能够促进土壤的呼吸作用，使杨梅树获得更多营养、健康成长。
                       </div>
                       </div>
                     </Flex>
@@ -805,12 +805,12 @@ export default class Consumer extends Component {
                         <div className="data-title css12594a6bbd1d0b6">土壤湿度</div>
                         <WhiteSpace />
                         <div className="Consumer-datadetail css12594a6bbd1d0b6">
-                          土壤湿度是影响茶树生长速度的关键因素，适宜的土壤湿度可以将茶叶中的氨基酸含量维持在适宜水平，使茶叶口感更加鲜爽。
+                          土壤湿度是影响杨梅树生长速度的关键因素，适宜的土壤湿度可以将杨梅中的氨基酸含量维持在适宜水平，使杨梅口感更加鲜爽。
                       </div>
                       </div>
                     </Flex>
                   </Flex>
-                </div> */}
+                </div>
                 <div className="section4">
                   <div className="Consumer-bottombar css12594a6bbd1d0b6" style={{ fontSize: '.28rem', lineHeight: '.5rem' }}>
                     <img src={require('./ymlogo.png')} alt="logo" style={{ width: ".5rem", height: '.5rem' }} />
