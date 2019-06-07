@@ -3,6 +3,7 @@ import { Flex, Button, InputItem, Toast, WhiteSpacem, Carousel, WhiteSpace, Wing
 import { getInfoForConumer, fake } from "../axios";
 import './Consumer.css';
 import './taishun.css';
+import './ym.css';
 import * as echarts from 'echarts';
 import { generateGetCodeUrl } from '../util';
 import URI from 'urijs';
@@ -675,7 +676,7 @@ export default class Consumer extends Component {
           if (teaType === "泰顺") {
             document.title = "杜家村杨梅—让数据说话";
             this.setState({
-              content: <div style={{ width: '100%' }} id="taishun_body">
+              content: <div style={{ width: '100%' }} id="ym_body">
                 <div className="banner">
                   <img src={require('./bannerym.png')} />
                 </div>
