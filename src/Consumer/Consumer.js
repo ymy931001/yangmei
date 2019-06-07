@@ -504,7 +504,7 @@ export default class Consumer extends Component {
               </div>
             });
           }
-          if (teaType === "杜家杨梅") {
+          if (teaType === "泰顺") {
             document.title = "泰顺县广和农业开发有限公司—让数据说话";
             this.setState({
               content: <div style={{ width: '100%' }} id="taishun_body">
@@ -746,25 +746,8 @@ export default class Consumer extends Component {
                     <a href="/consumer/tspick" className="Consumer-more css12594a6bbd1d0b6">实时图片</a>
                   </div>
                 </div>
-                <div className="section2">
-                  <div className="pick" style={{ marginTop: '0rem', position: 'relative' }}>
-                    <img src={require('./tscook.jpg')} style={{ width: '100%', height: '2rem', float: 'left', }} />
-                  </div>
-                  <div className="sub-title3 css12594a6bbd1d0b6">传承传统制茶工艺</div>
-                  <div className="sub-content css12594a6bbd1d0b6">香菇寮白毫最主要的品质特征是内含兰花香。兰花香是茶种本身的特质，但采制方法决定着香味的发挥程度，传统手工采制方法更利于兰花香韵的发挥。
-                  香菇寮白毫选用一芽一叶或一芽二叶初展的幼嫩芽叶，采后以5厘米的厚度，将青叶推放在簸箕上，约经4－6小时的摊凉后，再经杀青、揉捻、初烘、炒二青、复烘、滚袋六道工序制作而成。</div>
-                  <div style={{ textAlign: 'center' }}>
-                    <a href="/consumer/tscook" className="Consumer-more css12594a6bbd1d0b6">实时图片</a>
-                  </div>
-                  {/* <div className="pick2">
-                    <img src={require('./packing2.png')} style={{ width: '100%', height: '2.73rem', float: 'left', }} />
-
-                  </div>
-                  <div className="sub-title3 css12594a6bbd1d0b6">用科技包裹风味与历史</div>
-                  <div className="sub-content css12594a6bbd1d0b6">使用塑料封独立包装最大程度保持白毫茶的正宗风味，用古朴与科技相融的包装带您体验千年古茶与现代科技的完美融合。</div> */}
-                </div>
                 <div className="section3">
-                  <div className="sub-title2 css12594a6bbd1d0b6">让数据为白毫茶发声</div>
+                  <div className="sub-title2 css12594a6bbd1d0b6">让数据为杜家杨梅发声</div>
                   <Flex justify="center" direction="column" >
                     <Flex justify="center">
                       <div className="Consumer-dataimg css12594a6bbd1d0b6"><span className="pm-data">{pmtext}</span></div>
@@ -814,17 +797,17 @@ export default class Consumer extends Component {
                     </Flex>
                   </Flex>
                 </div>
-                <div className="section5">
+                {/* <div className="section5">
                   <div style={{ fontSize: ".25rem", lineHeight: '.4rem' }}>采摘时间：{this.state.pickTime}</div>
                   <div style={{ fontSize: ".25rem", lineHeight: '.4rem' }}>炒制时间：{this.state.cookTime}</div>
                   <div style={{ fontSize: ".25rem", lineHeight: '.4rem' }}>包装时间：{this.state.packTime}</div>
-                </div>
+                </div> */}
                 <div className="section4">
                   <div className="Consumer-bottombar css12594a6bbd1d0b6" style={{ fontSize: '.28rem', lineHeight: '.5rem' }}>
-                    <img src={require('./botlogo.png')} alt="logo" style={{ width: ".3rem", height: '.3rem' }} />
-                    泰顺县广和农业开发有限公司
+                    <img src={require('./ymlogo.png')} alt="logo" style={{ width: ".3rem", height: '.3rem' }} />
+                    杜家杨梅
                  </div>
-                  <div className="Consumer-bottombar css12594a6bbd1d0b6" style={{ fontSize: '.28rem', lineHeight: '.5rem' }}>技术保障：温州移动 浙江大学</div>
+                  <div className="Consumer-bottombar css12594a6bbd1d0b6" style={{ fontSize: '.28rem', lineHeight: '.5rem' }}>技术保障：杭州移动 浙江大学</div>
                   <div className="Consumer-bottombar css12594a6bbd1d0b6" style={{ fontSize: '.28rem', lineHeight: '.5rem' }}>实施单位：钛比科技  </div>
                 </div>
               </div>
