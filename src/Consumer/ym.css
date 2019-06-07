@@ -152,8 +152,7 @@
 	height: 0;
 }
 #ym_body .pick1{
-  margin-top: .5rem;
-  height: 2.07rem;
+  height: 3.07rem;
 }
 #ym_body .pick1:after{
 	visibility: hidden;

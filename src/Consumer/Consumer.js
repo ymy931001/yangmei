@@ -751,7 +751,7 @@ export default class Consumer extends Component {
                   </div>
                 </div>
                 <div className="pick1">
-                  <img src={require('./ympick1.png')} style={{ width: '100%', height: '2.07rem', verticalAlign: 'top', float: 'left', }} />
+                  <img src={require('./ympick1.png')} style={{ width: '100%', height: '3.07rem', verticalAlign: 'top', float: 'left', }} />
                 </div>
                 <div className="sub-title3 css12594a6bbd1d0b6" >手工采摘品质保证</div>
                 <div className="sub-content css12594a6bbd1d0b6"
