@@ -16,7 +16,7 @@
   margin-left: .545rem;
 }
 #ym_body .section{
-  height: 5.15rem;
+  height: 6.15rem;
   background:url(http://maoyang.terabits.cn/section.jpg) no-repeat center center;
   background-size:cover; 
   padding-top: .45rem;
@@ -76,12 +76,12 @@
 #ym_body .sub-content{
   font-size: .19rem;
   line-height: .265rem;
-  padding:.255rem;
+  padding:.2rem;
   text-indent: 0.38rem;
 }
 /*茶叶来自于*/
 #ym_body .section1{
-  height: 11.75rem;
+  height: 6.55rem;
   background:url(http://maoyang.terabits.cn/section.jpg) no-repeat center center;
   background-size:cover; 
   padding-top: .10rem;
@@ -164,7 +164,6 @@
 	height: 0;
 }
 #ym_body .pick2{
-  margin-top: .3rem;
   height: 2.7rem;
 }
 #ym_body .pick2:after{

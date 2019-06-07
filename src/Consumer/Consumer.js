@@ -732,7 +732,7 @@ export default class Consumer extends Component {
                       <div style={{ textAlign: 'center', fontSize: '0.19rem' }} className="css12594a6bbd1d0b6">东经：{garden.details.latitude} 北纬：{garden.details.longitude}</div>
                       <div className="map-text css12594a6bbd1d0b6">
                       杜家村位于萧山市所前镇东南面，距城区12公里。坐落在青化山东麓的山坞中。村落三面环山，座南朝北。村区北和郑家、传芳村接壤，南面翻过石门岭与进化镇石门王村交界，东至郑家村的山林，西又和传芳村隔山相连。
-                      杜家村原属绍兴县进化区崇越乡，1950年10月划归萧山县。现隶属萧山市所前镇，辖杜家、贾家2个自然村。村委会驻地杜家。1992年，有453户，1555人。有耕地506亩，山林4517亩，以培育茶叶、果木为主，是浙江省著名特产杜家杨梅的产地。
+                      杜家村原属绍兴县进化区崇越乡，是浙江省著名特产杜家杨梅的产地。
                       </div>
                     </div>
                     <div style={{ fontSize: "0.19rem", float: 'left', width: '96%', lineHeight: '.265rem', marginTop: '.05rem' }}>
