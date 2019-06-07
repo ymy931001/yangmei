@@ -710,16 +710,16 @@ export default class Consumer extends Component {
                     </Carousel>
                   </WingBlank>
                   <div className="sub-content css12594a6bbd1d0b6">
-                    泰顺县彭溪镇香菇寮白毫原产地，利用浙江大学“物联网+区块链”技术，实现香菇寮白毫从产地环境监测、种植、制作、封装过程的数据追溯，让数据替茶说话，用科技守卫品质。
+                  由于杜家村山体条件优越，以青化山作为种植杨梅的天然屏障所形成的小气候，优质的条件所致杜家杨梅的独特风味，杜家杨梅又可分为早色和迟色两个品种， 其中迟色乃精品中的精品!杜家杨梅不仅鲜美可口，而且营养丰富。萧山栽培杨梅已有近千年历史。它含有蛋白质、糖类、果酸、钙、铁，以及多种维生素。此外，还有广泛的药用价值，能生津止咳，帮助消化，益肾利尿，去暑解闷。萧山民间有“桃子吃出病，杨梅来治病”的说法。杨梅除了鲜食，还可晒干，酿酒，制成蜜饯、果酱等。
                 </div >
                 </div>
                 <div className="section1">
-                  <div className="sub-title5 css12594a6bbd1d0b6">您手中的茶叶来自于</div>
+                  <div className="sub-title5 css12594a6bbd1d0b6">您手中的杨梅来自于</div>
                   <div className="comefrom">
                     <div className="map">
                       <img
                         className="mapimg"
-                        src={require('./map2.jpg')}
+                        src={require('./map3.png')}
                         alt=""
                         onLoad={() => {
                           window.dispatchEvent(new Event('resize'));
@@ -731,7 +731,8 @@ export default class Consumer extends Component {
                       <div style={{ fontSize: '0.22rem', marginBottom: '0.1rem', textAlign: 'center' }} className="css12594a6bbd1d0b6">{garden.name}</div>
                       <div style={{ textAlign: 'center', fontSize: '0.19rem' }} className="css12594a6bbd1d0b6">东经：{garden.details.latitude} 北纬：{garden.details.longitude}</div>
                       <div className="map-text css12594a6bbd1d0b6">
-                        杜家杨梅，位于浙江省杭州市萧山区所前镇杜家村
+                      杜家村位于萧山市所前镇东南面，距城区12公里。坐落在青化山东麓的山坞中。村落三面环山，座南朝北。村区北和郑家、传芳村接壤，南面翻过石门岭与进化镇石门王村交界，东至郑家村的山林，西又和传芳村隔山相连。
+                      杜家村原属绍兴县进化区崇越乡，1950年10月划归萧山县。现隶属萧山市所前镇，辖杜家、贾家2个自然村。村委会驻地杜家。1992年，有453户，1555人。有耕地506亩，山林4517亩，以培育茶叶、果木为主，是浙江省著名特产杜家杨梅的产地。
                       </div>
                     </div>
                     <div style={{ fontSize: "0.19rem", float: 'left', width: '96%', lineHeight: '.265rem', marginTop: '.05rem' }}>
@@ -739,7 +740,7 @@ export default class Consumer extends Component {
                   </div>
                 </div>
                 <div className="pick2">
-                  <img src={require('./packing11.png')} style={{ width: '100%', height: '2.73rem', float: 'left', }} />
+                  <img src={require('./ympack.png')} style={{ width: '100%', height: '2.73rem', float: 'left', }} />
                 </div>
                 <div className="sub-title3 css12594a6bbd1d0b6">用科技包裹风味与历史</div>
                 <div className="section3">
@@ -795,7 +796,7 @@ export default class Consumer extends Component {
                 </div>
                 <div className="section4">
                   <div className="Consumer-bottombar css12594a6bbd1d0b6" style={{ fontSize: '.28rem', lineHeight: '.5rem' }}>
-                    <img src={require('./ymlogo.png')} alt="logo" style={{ width: ".3rem", height: '.3rem' }} />
+                    <img src={require('./ymlogo.png')} alt="logo" style={{ width: ".5rem", height: '.5rem' }} />
                     杜家杨梅
                  </div>
                   <div className="Consumer-bottombar css12594a6bbd1d0b6" style={{ fontSize: '.28rem', lineHeight: '.5rem' }}>技术保障：杭州移动 浙江大学</div>
