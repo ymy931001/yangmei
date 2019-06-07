@@ -27,6 +27,7 @@ export default class Consumer extends Component {
 
     getInfoForConumer([teaid]).then(res => {
       console.log(teaid)
+      console.log(res.data.teaInfo.teaType)
       if (!res.data.success) {
         const nothingdiv = (
           <div className="Consumer-nothingbox">
@@ -71,7 +72,7 @@ export default class Consumer extends Component {
           } else if (teaType === "径山") {
             tag = '径山茶业';
           }
-          if (teaType != "泰顺") {
+          if (teaType != "泰顺" && teaType != "杜家杨梅") {
             if (localcount) {
               if (localcount !== '0') {
                 Toast.fail(`已有${localcount}人扫描过该二维码，请向卖家确认产品来源。`, 7, null, false);
@@ -505,7 +506,7 @@ export default class Consumer extends Component {
               </div>
             });
           }
-          if (teaType === "杜家杨梅") {
+          if (teaType === "泰顺") {
             document.title = "泰顺县广和农业开发有限公司—让数据说话";
             this.setState({
               content: <div style={{ width: '100%' }} id="taishun_body">
@@ -673,7 +674,7 @@ export default class Consumer extends Component {
               </div>
             });
           }
-          if (teaType === "泰顺") {
+          if (teaType === "杜家杨梅") {
             document.title = "杜家村杨梅—让数据说话";
             this.setState({
               content: <div style={{ width: '100%' }} id="ym_body">
