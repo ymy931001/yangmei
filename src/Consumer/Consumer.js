@@ -694,12 +694,22 @@ export default class Consumer extends Component {
                       infinite
                       afterChange={index => this.setState({ slideIndex: index })}
                     >
-                      {this.state.datas.map((val, index) => (
+                      {this.state.data.map((val, index) => (
                         <span>
                           <img
                             src={require(`./ymimg/${val}.jpg`)}
                             alt=""
-                            style={{ width: '100%', verticalAlign: 'top' }}
+                            style={{ width: '47%', verticalAlign: 'top' }}
+                            onLoad={() => {
+                              // fire window resize event to change height
+                              window.dispatchEvent(new Event('resize'));
+                              this.setState({ imgHeight: 'auto' });
+                            }}
+                          />
+                          <img
+                            src={require(`./ymimg1/${val}.jpg`)}
+                            alt=""
+                            style={{ width: '47%', verticalAlign: 'top', marginLeft: '6%' }}
                             onLoad={() => {
                               // fire window resize event to change height
                               window.dispatchEvent(new Event('resize'));
@@ -711,7 +721,7 @@ export default class Consumer extends Component {
                     </Carousel>
                   </WingBlank>
                   <div className="sub-content css12594a6bbd1d0b6">
-                  由于杜家村山体条件优越，以青化山作为种植杨梅的天然屏障所形成的小气候，优质的条件所致杜家杨梅的独特风味，杜家杨梅又可分为早色和迟色两个品种， 其中迟色乃精品中的精品!杜家杨梅不仅鲜美可口，而且营养丰富。萧山栽培杨梅已有近千年历史。它含有蛋白质、糖类、果酸、钙、铁，以及多种维生素。此外，还有广泛的药用价值，能生津止咳，帮助消化，益肾利尿，去暑解闷。萧山民间有“桃子吃出病，杨梅来治病”的说法。杨梅除了鲜食，还可晒干，酿酒，制成蜜饯、果酱等。
+                    由于杜家村山体条件优越，以青化山作为种植杨梅的天然屏障所形成的小气候，优质的条件所致杜家杨梅的独特风味，杜家杨梅又可分为早色和迟色两个品种， 其中迟色乃精品中的精品!杜家杨梅不仅鲜美可口，而且营养丰富。萧山栽培杨梅已有近千年历史。它含有蛋白质、糖类、果酸、钙、铁，以及多种维生素。此外，还有广泛的药用价值，能生津止咳，帮助消化，益肾利尿，去暑解闷。萧山民间有“桃子吃出病，杨梅来治病”的说法。杨梅除了鲜食，还可晒干，酿酒，制成蜜饯、果酱等。
                 </div >
                 </div>
                 <div className="section1">
@@ -732,8 +742,8 @@ export default class Consumer extends Component {
                       <div style={{ fontSize: '0.22rem', marginBottom: '0.1rem', textAlign: 'center' }} className="css12594a6bbd1d0b6">{garden.name}</div>
                       <div style={{ textAlign: 'center', fontSize: '0.19rem' }} className="css12594a6bbd1d0b6">东经：{garden.details.latitude} 北纬：{garden.details.longitude}</div>
                       <div className="map-text css12594a6bbd1d0b6">
-                      杜家村位于萧山市所前镇东南面，距城区12公里。坐落在青化山东麓的山坞中。村落三面环山，座南朝北。村区北和郑家、传芳村接壤，南面翻过石门岭与进化镇石门王村交界，东至郑家村的山林，西又和传芳村隔山相连。
-                      杜家村原属绍兴县进化区崇越乡，是浙江省著名特产杜家杨梅的产地。
+                        杜家村位于萧山市所前镇东南面，距城区12公里。坐落在青化山东麓的山坞中。村落三面环山，座南朝北。村区北和郑家、传芳村接壤，南面翻过石门岭与进化镇石门王村交界，东至郑家村的山林，西又和传芳村隔山相连。
+                        杜家村原属绍兴县进化区崇越乡，是浙江省著名特产杜家杨梅的产地。
                       </div>
                     </div>
                     <div style={{ fontSize: "0.19rem", float: 'left', width: '96%', lineHeight: '.265rem', marginTop: '.05rem' }}>
