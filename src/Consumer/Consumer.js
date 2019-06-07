@@ -760,7 +760,7 @@ export default class Consumer extends Component {
                   <img src={require('./ympack.png')} style={{ width: '100%', height: '2.73rem', float: 'left', }} />
                 </div>
                 <div className="sub-title3 css12594a6bbd1d0b6">用科技包裹风味与历史</div>
-                <div className="section3">
+                {/* <div className="section3">
                   <div className="sub-title2 css12594a6bbd1d0b6">让数据为杜家杨梅发声</div>
                   <Flex justify="center" direction="column" >
                     <Flex justify="center">
@@ -810,7 +810,7 @@ export default class Consumer extends Component {
                       </div>
                     </Flex>
                   </Flex>
-                </div>
+                </div> */}
                 <div className="section4">
                   <div className="Consumer-bottombar css12594a6bbd1d0b6" style={{ fontSize: '.28rem', lineHeight: '.5rem' }}>
                     <img src={require('./ymlogo.png')} alt="logo" style={{ width: ".5rem", height: '.5rem' }} />
