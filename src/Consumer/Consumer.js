@@ -505,7 +505,7 @@ export default class Consumer extends Component {
               </div>
             });
           }
-          if (teaType === "杜家杨梅") {
+          if (teaType === "泰顺") {
             document.title = "泰顺县广和农业开发有限公司—让数据说话";
             this.setState({
               content: <div style={{ width: '100%' }} id="taishun_body">
@@ -673,7 +673,7 @@ export default class Consumer extends Component {
               </div>
             });
           }
-          if (teaType === "泰顺") {
+          if (teaType === "杜家杨梅") {
             document.title = "杜家村杨梅—让数据说话";
             this.setState({
               content: <div style={{ width: '100%' }} id="ym_body">
@@ -696,7 +696,7 @@ export default class Consumer extends Component {
                       {this.state.datas.map((val, index) => (
                         <span>
                           <img
-                            src={require(`./tsimg1/${val}.jpg`)}
+                            src={require(`./ymimg/${val}.jpg`)}
                             alt=""
                             style={{ width: '100%', verticalAlign: 'top' }}
                             onLoad={() => {
@@ -747,7 +747,7 @@ export default class Consumer extends Component {
                     <a href="/consumer/tspick" className="Consumer-more css12594a6bbd1d0b6">实时图片</a>
                   </div>
                 </div> */}
-                {/* <div className="section3">
+                <div className="section3">
                   <div className="sub-title2 css12594a6bbd1d0b6">让数据为杜家杨梅发声</div>
                   <Flex justify="center" direction="column" >
                     <Flex justify="center">
@@ -797,12 +797,7 @@ export default class Consumer extends Component {
                       </div>
                     </Flex>
                   </Flex>
-                </div> */}
-                {/* <div className="section5">
-                  <div style={{ fontSize: ".25rem", lineHeight: '.4rem' }}>采摘时间：{this.state.pickTime}</div>
-                  <div style={{ fontSize: ".25rem", lineHeight: '.4rem' }}>炒制时间：{this.state.cookTime}</div>
-                  <div style={{ fontSize: ".25rem", lineHeight: '.4rem' }}>包装时间：{this.state.packTime}</div>
-                </div> */}
+                </div>
                 <div className="section4">
                   <div className="Consumer-bottombar css12594a6bbd1d0b6" style={{ fontSize: '.28rem', lineHeight: '.5rem' }}>
                     <img src={require('./ymlogo.png')} alt="logo" style={{ width: ".3rem", height: '.3rem' }} />
