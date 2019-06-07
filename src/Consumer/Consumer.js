@@ -750,6 +750,12 @@ export default class Consumer extends Component {
                       杜家杨梅据南宋《嘉泰会稽志》记载：天乐杜家杨梅产此有名，世称“杜家杨梅”。明代五象晋《群芳谱》有“杨梅会稽产者天下冠”之评，由于杜家杨梅产区坐落在会稽山余脉青化山的北麓，古称为会稽郡，由此可见杜家杨梅栽培。历史已闻名已久。1958年中央粟裕大将以及1960年铁道部长滕代远先后来我村视察杨梅发展概况,1981年在全省特产水果中被评为早熟第一名；2002年被省农业厅评为杨梅精品；2003年被评为精品杨梅优胜奖，2004年被农业部授予杜家杨梅无公害农产品标志，2005年被授予杜家杨梅原产地地理标志。目前，杜家杨梅已由发展鼎盛期转入科学栽培期，从而由量到质的一个发展过程。</div>
                   </div>
                 </div>
+                <div className="pick1">
+                  <img src={require('./ympick1.png')} style={{ width: '100%', height: '2.07rem', verticalAlign: 'top', float: 'left', }} />
+                </div>
+                <div className="sub-title3 css12594a6bbd1d0b6" >手工采摘品质保证</div>
+                <div className="sub-content css12594a6bbd1d0b6"
+                >杜家杨梅以采摘细嫩著称</div>
                 <div className="pick2">
                   <img src={require('./ympack.png')} style={{ width: '100%', height: '2.73rem', float: 'left', }} />
                 </div>
