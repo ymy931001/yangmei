@@ -504,7 +504,7 @@ export default class Consumer extends Component {
               </div>
             });
           }
-          if (teaType === "泰顺") {
+          if (teaType === "杜家杨梅") {
             document.title = "泰顺县广和农业开发有限公司—让数据说话";
             this.setState({
               content: <div style={{ width: '100%' }} id="taishun_body">
