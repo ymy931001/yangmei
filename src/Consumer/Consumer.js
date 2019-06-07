@@ -505,7 +505,7 @@ export default class Consumer extends Component {
               </div>
             });
           }
-          if (teaType === "泰顺") {
+          if (teaType === "杜家杨梅") {
             document.title = "泰顺县广和农业开发有限公司—让数据说话";
             this.setState({
               content: <div style={{ width: '100%' }} id="taishun_body">
@@ -673,7 +673,7 @@ export default class Consumer extends Component {
               </div>
             });
           }
-          if (teaType === "杜家杨梅") {
+          if (teaType === "泰顺") {
             document.title = "杜家村杨梅—让数据说话";
             this.setState({
               content: <div style={{ width: '100%' }} id="ym_body">
@@ -713,7 +713,7 @@ export default class Consumer extends Component {
                     泰顺县彭溪镇香菇寮白毫原产地，利用浙江大学“物联网+区块链”技术，实现香菇寮白毫从产地环境监测、种植、制作、封装过程的数据追溯，让数据替茶说话，用科技守卫品质。
                 </div >
                 </div>
-                {/* <div className="section1">
+                <div className="section1">
                   <div className="sub-title5 css12594a6bbd1d0b6">您手中的茶叶来自于</div>
                   <div className="comefrom">
                     <div className="map">
@@ -731,22 +731,17 @@ export default class Consumer extends Component {
                       <div style={{ fontSize: '0.22rem', marginBottom: '0.1rem', textAlign: 'center' }} className="css12594a6bbd1d0b6">{garden.name}</div>
                       <div style={{ textAlign: 'center', fontSize: '0.19rem' }} className="css12594a6bbd1d0b6">东经：{garden.details.latitude} 北纬：{garden.details.longitude}</div>
                       <div className="map-text css12594a6bbd1d0b6">
-                        香菇寮，位于彭溪镇海拔四百多米的山岙之中，荟蔚苍萃，停云住霭，云烟起时犹如仙境，是孕育香菇寮白毫的一方净土。据多次移植试验证实，这里的地理环境对香菇寮白毫的种植具有不可复制性，其他地方尚无法培育出纯正味道的香菇寮白毫，因此种植规模非常有限，产量稀少，在市场上“一茶难求”，极为珍贵。
+                        杜家杨梅，位于浙江省杭州市萧山区所前镇杜家村
                       </div>
                     </div>
                     <div style={{ fontSize: "0.19rem", float: 'left', width: '96%', lineHeight: '.265rem', marginTop: '.05rem' }}>
-                      香菇寮白毫是彭溪原产的珍稀茶种，省优质名茶，以兰花香品质独具特色，且据多次移植试验证实，这一特质在其他种植区域无法复制。中国第一茶院士陈宗懋院士多次到彭溪实地品鉴，赞誉其为茶中珍品。1999年曾获杭州国际茶博会金奖。               香菇寮白毫幽香似兰、周身白毫，茶中内含物质丰富，氨基酸含量高，经久耐泡，第二泡内质发挥达到顶峰，滋味鲜爽，回味甘甜，口感最佳。                    此茶为迟芽种，在泰顺的茶叶品种中，开园时间最晚，一般采制于清明前后。将明前茶奉为上品的选茶观念并不适用于香菇寮白毫，选择香菇寮应遵循“求优不求早”的原则。</div>
+                      杜家杨梅据南宋《嘉泰会稽志》记载：天乐杜家杨梅产此有名，世称“杜家杨梅”。明代五象晋《群芳谱》有“杨梅会稽产者天下冠”之评，由于杜家杨梅产区坐落在会稽山余脉青化山的北麓，古称为会稽郡，由此可见杜家杨梅栽培。历史已闻名已久。1958年中央粟裕大将以及1960年铁道部长滕代远先后来我村视察杨梅发展概况,1981年在全省特产水果中被评为早熟第一名；2002年被省农业厅评为杨梅精品；2003年被评为精品杨梅优胜奖，2004年被农业部授予杜家杨梅无公害农产品标志，2005年被授予杜家杨梅原产地地理标志。目前，杜家杨梅已由发展鼎盛期转入科学栽培期，从而由量到质的一个发展过程。</div>
                   </div>
-                  <div className="pick1">
-                    <img src={require('./tspick.png')} style={{ width: '100%', height: '2.07rem', verticalAlign: 'top', float: 'left', }} />
-                  </div>
-                  <div className="sub-title3 css12594a6bbd1d0b6" >手工采摘品质保证</div>
-                  <div className="sub-content css12594a6bbd1d0b6"
-                  >香菇寮白毫以细嫩鲜爽著称，采摘一般以一芽一叶为标准，采用“提手采”，即用拇指和食指捏住芽叶，轻轻向上提采或折断，使茶叶完整成朵。遵循清晨、有露水、阴雨天、正当午时不采的原则，保证鲜叶质量。</div>
-                  <div style={{ textAlign: 'center' }}>
-                    <a href="/consumer/tspick" className="Consumer-more css12594a6bbd1d0b6">实时图片</a>
-                  </div>
-                </div> */}
+                </div>
+                <div className="pick2">
+                  <img src={require('./packing11.png')} style={{ width: '100%', height: '2.73rem', float: 'left', }} />
+                </div>
+                <div className="sub-title3 css12594a6bbd1d0b6">用科技包裹风味与历史</div>
                 <div className="section3">
                   <div className="sub-title2 css12594a6bbd1d0b6">让数据为杜家杨梅发声</div>
                   <Flex justify="center" direction="column" >
