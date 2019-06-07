@@ -682,7 +682,7 @@ export default class Consumer extends Component {
                 <div className="section">
                   <div className="sub-title css12594a6bbd1d0b6">杜家村杨梅</div>
                   <div className="sub-title1 css12594a6bbd1d0b6">全球唯一追溯ID: <span>{data.teaInfo.teaID}</span></div>
-                  <WingBlank>
+                  {/* <WingBlank>
                     <Carousel className="space-carousel"
                       frameOverflow="visible"
                       cellSpacing={10}
@@ -707,12 +707,12 @@ export default class Consumer extends Component {
                         </span>
                       ))}
                     </Carousel>
-                  </WingBlank>
+                  </WingBlank> */}
                   <div className="sub-content css12594a6bbd1d0b6">
                     泰顺县彭溪镇香菇寮白毫原产地，利用浙江大学“物联网+区块链”技术，实现香菇寮白毫从产地环境监测、种植、制作、封装过程的数据追溯，让数据替茶说话，用科技守卫品质。
                 </div >
                 </div>
-                <div className="section1">
+                {/* <div className="section1">
                   <div className="sub-title5 css12594a6bbd1d0b6">您手中的茶叶来自于</div>
                   <div className="comefrom">
                     <div className="map">
@@ -745,8 +745,8 @@ export default class Consumer extends Component {
                   <div style={{ textAlign: 'center' }}>
                     <a href="/consumer/tspick" className="Consumer-more css12594a6bbd1d0b6">实时图片</a>
                   </div>
-                </div>
-                <div className="section3">
+                </div> */}
+                {/* <div className="section3">
                   <div className="sub-title2 css12594a6bbd1d0b6">让数据为杜家杨梅发声</div>
                   <Flex justify="center" direction="column" >
                     <Flex justify="center">
@@ -796,7 +796,7 @@ export default class Consumer extends Component {
                       </div>
                     </Flex>
                   </Flex>
-                </div>
+                </div> */}
                 {/* <div className="section5">
                   <div style={{ fontSize: ".25rem", lineHeight: '.4rem' }}>采摘时间：{this.state.pickTime}</div>
                   <div style={{ fontSize: ".25rem", lineHeight: '.4rem' }}>炒制时间：{this.state.cookTime}</div>
