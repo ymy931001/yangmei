@@ -760,7 +760,7 @@ export default class Consumer extends Component {
                 <div className="pick2">
                   <img src={require('./ympack.png')} style={{ width: '100%', height: '2.73rem', float: 'left', }} />
                 </div>
-                <div className="sub-title3 css12594a6bbd1d0b6">用科技包裹风味与历史</div>
+                <div className="sub-title3 css12594a6bbd1d0b6">用科技包裹风味与质量</div>
                 <div className="sub-content css12594a6bbd1d0b6"
                 >杜家杨梅采用实用新型上盒体与下盒体包装，上盒体和下盒体内均设置有弹性定位片，使杨梅能在盒体内隔开固定并在运输的过程中能避免震动造成的损坏、
                 有效的保证盒体内气体的循环，保证盒体内杨梅的通气性，从而提高杨梅运输过程中质量的保证。</div>
