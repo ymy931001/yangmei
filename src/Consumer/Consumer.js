@@ -72,7 +72,7 @@ export default class Consumer extends Component {
           } else if (teaType === "径山") {
             tag = '径山茶业';
           }
-          if (teaType != "泰顺" && teaType != "杜家杨梅") {
+          if (teaType != "泰顺") {
             if (localcount) {
               if (localcount !== '0') {
                 Toast.fail(`已有${localcount}人扫描过该二维码，请向卖家确认产品来源。`, 7, null, false);
@@ -83,7 +83,7 @@ export default class Consumer extends Component {
             }
             else {
               fake([teaidnum, code]).then(response => {
-                if (response.data.count !== 0) {
+                if (response.data.count !== 0 && response.data.count !== undefined) {
                   Toast.fail(`已有${response.data.count}人扫描过该二维码，请向卖家确认产品来源。`, 7, null, false);
                 }
                 else {
