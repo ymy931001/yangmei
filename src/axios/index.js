@@ -9,5 +9,6 @@ export const getInfoForConumer = (params) => http.getcon(config.requestIp + '/us
 //微信配置函数
 export const fake = (params) => http.post(config.requestIp + '/users/fake', {
 	teaID: params[0],
-	code: params[1]
+	code: params[1],
+	appId: params[2],
 });
