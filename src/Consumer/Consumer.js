@@ -68,42 +68,34 @@ export default class Consumer extends Component {
           var temArray = [[1, 5.55], [2, 3.44], [3, 2.44], [4, 6.43], [5, 6.45], [6, 6.22], [7, 7.34], [8, 7.65], [9, 6.33], [10, 6.87]];
           var mosArray = [[1, 16.5], [2, 17.3], [3, 17.4], [4, 19.3], [5, 18.5], [6, 17.3], [7, 16.9], [8, 17.4], [9, 18.5], [10, 19.2]];
 
-          let tag = '钛比科技';
-          if (teaType === "龙井") {
-            tag = '竺顶茶业';
-          } else if (teaType === "径山") {
-            tag = '径山茶业';
-          } else if (teaType === "杜家杨梅") {
-            tag = '杜家杨梅';
-          }
+          let tag = '杜家杨梅';
 
-          if (teaType === "杜家杨梅") {
-            console.log(!localcount)
-            if (!localcount) {
-              if (localcount !== '0') {
-                Toast.fail(`已有${localcount}人扫描过该二维码，欢迎选购所前杜家杨梅。`, 7, null, false);
+          console.log(localcount)
+          // if (!localcount) {
+          //   if (localcount !== '0') {
+          //     Toast.fail(`已有${localcount}人扫描过该二维码，欢迎选购所前杜家杨梅。`, 7, null, false);
+          //   }
+          //   else {
+          //     Toast.success(`您是首位扫描该二维码的消费者，${tag}基于区块链技术为您提供正品保障。`, 5, null, false);
+          //   }
+          // }
+          // else {
+            console.log(777)
+            fake([
+              teaidnum,
+              code,
+              'wx8cd085ab60783aac'
+            ]).then(response => {
+              if (response.data.count !== 0 && response.data.count !== undefined) {
+                Toast.fail(`已有${response.data.count}人扫描过该二维码，欢迎选购所前杜家杨梅。`, 7, null, false);
               }
               else {
                 Toast.success(`您是首位扫描该二维码的消费者，${tag}基于区块链技术为您提供正品保障。`, 5, null, false);
               }
-            }
-            else {
-              console.log(777)
-              fake([
-                teaidnum,
-                code,
-                'wxdc0c08cd48fbb65b'
-              ]).then(response => {
-                if (response.data.count !== 0 && response.data.count !== undefined) {
-                  Toast.fail(`已有${response.data.count}人扫描过该二维码，欢迎选购所前杜家杨梅。`, 7, null, false);
-                }
-                else {
-                  Toast.success(`您是首位扫描该二维码的消费者，${tag}基于区块链技术为您提供正品保障。`, 5, null, false);
-                }
-                localStorage.setItem('count', response.data.count);
-              });
-            }
-          }
+              localStorage.setItem('count', response.data.count);
+            });
+          // }
+
 
 
 
