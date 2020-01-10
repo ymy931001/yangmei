@@ -321,7 +321,7 @@ export default class Consumer extends Component {
                 <div className="banners">
                   {/* <img src={require('./bannerym.png')} /> */}
                 </div>
-                <div className="section">
+                <div className="section"  style={{height:'5.15rem'}}>
                   <div className="sub-title css12594a6bbd1d0b6">超山杨梅</div>
                   <div className="sub-title1 css12594a6bbd1d0b6">全球唯一追溯ID: <span>{data.teaInfo.teaID}</span></div>
                   <WingBlank>
@@ -336,7 +336,18 @@ export default class Consumer extends Component {
                     >
                       {this.state.data.map((val, index) => (
                         <span>
-                          <img
+                          <div className="ymImg" style={{background:`url(${require(`./ymimg/${val}.jpg`)} ) 0 0 / cover no-repeat`,width: '47%',verticalAlign: 'top',display:'inline-block'}} onLoad={() => {
+                              // fire window resize event to change height
+                              window.dispatchEvent(new Event('resize'));
+                              this.setState({ imgHeight: 'auto' });
+                            }}>
+                            </div>
+                          <div className="ymImg" style={{background:`url(${require(`./ymimg1/${val}.jpg`)} ) 0 0 / cover no-repeat`,marginLeft: '6%',width: '47%',verticalAlign: 'top',display:'inline-block'}} onLoad={() => {
+                            // fire window resize event to change height
+                            window.dispatchEvent(new Event('resize'));
+                            this.setState({ imgHeight: 'auto' });
+                          }}></div>
+                          {/* <img
                             src={require(`./ymimg/${val}.jpg`)}
                             alt=""
                             style={{ width: '47%', verticalAlign: 'top' }}
@@ -354,17 +365,17 @@ export default class Consumer extends Component {
                               // fire window resize event to change height
                               window.dispatchEvent(new Event('resize'));
                               this.setState({ imgHeight: 'auto' });
-                            }}
+                            }} */}
                           />
                         </span>
                       ))}
                     </Carousel>
                   </WingBlank>
                   <div className="sub-content css12594a6bbd1d0b6">
-                    超山素以十里梅海著称，并已成为杭州市的一大旅游圣地。大明堂、浮香阁等风景至今还有“唐梅”、“宋梅”等珍稀古梅。花单生或两朵单齐出，先叶开放，白色或淡红色，有清香。核果球形，青色。除供鲜食外，还可制成话梅、陈皮梅和果酱等，远销东南亚国家和港澳地区。杭州超山以植果梅为主，质量之优、品种之多列为三大梅区（另两个为无锡梅园、苏州邓尉山）之首。
+                    超山素以十里梅海著称，并已成为杭州市的一大旅游圣地。大明堂、浮香阁等风景至今还有“唐梅”、“宋梅”等珍稀古梅。花单生或两朵单齐出，先叶开放，白色或淡红色，有清香。核果球形，青色。除供鲜食外，还可制成话梅、陈皮梅和果酱等，远销东南亚国家和港澳地区。杭州超山以植果梅为主，质量之优、品种之多列为三大梅区之首。
                 </div >
                 </div>
-                <div className="section1">
+                <div className="section1"  style={{height:"4.2rem"}}>
                   <div className="sub-title5 css12594a6bbd1d0b6">您手中的杨梅来自于</div>
                   <div className="comefrom">
                     <div className="map">
@@ -385,8 +396,8 @@ export default class Consumer extends Component {
                         超山为省级风景名胜区。超山是一座风光绮丽、古迹众多、传说迷人的平原小山，位于浙江余杭的塘栖镇，距杭州29公里，主峰海拔265米，系天目山的余脉。超山以梅景而出名，兴盛时期方圆十里如飞雪漫空，故有“十里梅花香雪海“之美誉，中国有五大古梅，如楚梅、晋梅、隋梅、唐梅、宋梅。超山就有其二。
                       </div>
                     </div>
-                    <div style={{ fontSize: "0.19rem", float: 'left', width: '96%', lineHeight: '.265rem', marginTop: '.05rem', textIndent: '.38rem' }}>
-                      超山风景区景区面积为5平方公里，主峰超山，海拔265米，因超然突立于皋亭，黄鹤之外故名。以观赏“古、广、奇”三绝的梅花而著名。每当初春二月，花蕾爆发，白花平铺散玉，十余里遥天映白，如飞雪漫空，天花乱出，故有“十里香雪海”之美誉，为江南三大探梅胜地之一。中国有五大古梅，超山就有其二——唐梅和宋梅。超山风景区开放的主要有东园、北园和登山区域。东园景区遍植白梅，盛放时，如海荡漾，若雪满地。重现了当年超山“十里梅花香雪海”的胜境。新建成的北园景区围绕唐梅和宋梅，以江南水韵为核心，水域曲折,河道迂回,梅林中隐匿着亭台楼榭、粉墙黛瓦，由此形成了北园特有的赏梅方式——泛舟寻梅。　</div>
+                    {/* <div style={{ fontSize: "0.19rem", float: 'left', width: '96%', lineHeight: '.265rem', marginTop: '.05rem', textIndent: '.38rem' }}>
+                      超山风景区景区面积为5平方公里，主峰超山，海拔265米，因超然突立于皋亭，黄鹤之外故名。以观赏“古、广、奇”三绝的梅花而著名。每当初春二月，花蕾爆发，白花平铺散玉，十余里遥天映白，如飞雪漫空，天花乱出，故有“十里香雪海”之美誉，为江南三大探梅胜地之一。中国有五大古梅，超山就有其二——唐梅和宋梅。超山风景区开放的主要有东园、北园和登山区域。东园景区遍植白梅，盛放时，如海荡漾，若雪满地。重现了当年超山“十里梅花香雪海”的胜境。新建成的北园景区围绕唐梅和宋梅，以江南水韵为核心，水域曲折,河道迂回,梅林中隐匿着亭台楼榭、粉墙黛瓦，由此形成了北园特有的赏梅方式——泛舟寻梅。　</div> */}
                   </div>
                 </div>
                 <div className="pick1">
@@ -396,7 +407,7 @@ export default class Consumer extends Component {
                 <div className="sub-content css12594a6bbd1d0b6"
                 >超山杨梅的梅子的营养价值可说非常高，它属於硷性食物，酸味来源是有机酸，可以提高血液中的硷性，促进新陈代谢、消除疲劳、预防贫血，还能抗老化、助消化、抑制感冒咳嗽，连晕车止吐、醒酒除口臭，都有妙效，是不可多得的家庭必备零食和药材。</div>
                 <div className="pick2">
-                  <img src={require('./ympack.png')} style={{ width: '100%', height: '2.73rem', float: 'left', }} />
+                  <img src={require('./ympacks.png')} style={{ width: '100%', height: '2.73rem', float: 'left', }} />
                 </div>
                 <div className="sub-title3 css12594a6bbd1d0b6">用科技包裹风味与质量</div>
                 <div className="sub-content css12594a6bbd1d0b6"

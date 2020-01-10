@@ -64,6 +64,11 @@
   height: 2.3rem !important;
 }
 
+#ym_body .slider-slide span .ymImg{
+  /* width: 1.6rem !important; */
+height: 2.3rem !important;
+}
+
 
 #ym_body .sub-title{ 
    text-align: center;
