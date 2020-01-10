@@ -71,6 +71,9 @@ export default {
       url,
       data: qs.stringify(data),
       timeout: 50000,
+      headers: {
+        'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
+      }
     }).then(
       (response) => {
         return response;

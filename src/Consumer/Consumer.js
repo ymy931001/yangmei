@@ -24,12 +24,9 @@ export default class Consumer extends Component {
     urll = urll.split('&', 2);
     let teaidnum = urll[0];
     let teaid = urll[0].slice(0, 9);
-
     getInfoForConumer([
       teaid
     ]).then(res => {
-      console.log(teaid)
-      console.log(res.data.teaInfo.teaType)
       if (!res.data.success) {
         const nothingdiv = (
           <div className="Consumer-nothingbox">
@@ -38,8 +35,7 @@ export default class Consumer extends Component {
           </div>
         );
         this.setState({ nothingdiv });
-      }
-      else {
+      }else {
         this.setState({
           cookTime: res.data.teaInfo.cookInfo.cookTime,
           packTime: res.data.teaInfo.packInfo.packTime,
@@ -90,6 +86,7 @@ export default class Consumer extends Component {
                 code,
                 'wx8cd085ab60783aac'
               ]).then(response => {
+                
                 if (response.data.count !== 0 && response.data.count !== undefined) {
                   Toast.fail(`已有${response.data.count}人扫描过该二维码，欢迎选购所前杜家杨梅。`, 7, null, false);
                 }
@@ -114,7 +111,7 @@ export default class Consumer extends Component {
               fake([
                 teaidnum,
                 code,
-                'wx8cd085ab60783aac'
+                'wxdc0c08cd48fbb65b'
               ]).then(response => {
                 if (response.data.count !== 0 && response.data.count !== undefined) {
                   Toast.fail(`已有${response.data.count}人扫描过该二维码，欢迎选购超山杨梅。`, 7, null, false);
@@ -468,6 +465,7 @@ export default class Consumer extends Component {
               </div>
             });
           }
+
 
           localStorage.setItem('cookIntroduction', cook.introduction);
           localStorage.setItem('cookTime', cook.cookTime);
