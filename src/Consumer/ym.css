@@ -9,6 +9,14 @@
   background:url(http://maoyangimg.terabits.cn/tmhead.jpg) no-repeat center center;
   background-size:cover;
 }
+
+#ym_body .banners{
+  width: 100%;
+  height:3.9rem;
+  background:url(http://maoyang.terabits.cn/timg.jpg) no-repeat center center;
+  background-size:cover;
+}
+
 #ym_body .banner img{
   width: 1.95rem;
   height: 3.1rem;
