@@ -98,31 +98,31 @@ export default class Consumer extends Component {
             }
           }
 
-          if (teaType === "超山杨梅") {
-            if (localcount) {
-              if (localcount !== '0') {
-                Toast.fail(`已有${localcount}人扫描过该二维码，欢迎选购超山杨梅。`, 7, null, false);
-              }
-              else {
-                Toast.success(`您是首位扫描该二维码的消费者，${tag}基于区块链技术为您提供正品保障。`, 5, null, false);
-              }
-            }
-            else {
-              fake([
-                teaidnum,
-                code,
-                'wxdc0c08cd48fbb65b'
-              ]).then(response => {
-                if (response.data.count !== 0 && response.data.count !== undefined) {
-                  Toast.fail(`已有${response.data.count}人扫描过该二维码，欢迎选购超山杨梅。`, 7, null, false);
-                }
-                else {
-                  Toast.success(`您是首位扫描该二维码的消费者，${tag}基于区块链技术为您提供正品保障。`, 5, null, false);
-                }
-                localStorage.setItem('count', response.data.count);
-              });
-            }
-          }
+          // if (teaType === "超山杨梅") {
+          //   if (localcount) {
+          //     if (localcount !== '0') {
+          //       Toast.fail(`已有${localcount}人扫描过该二维码，欢迎选购超山杨梅。`, 7, null, false);
+          //     }
+          //     else {
+          //       Toast.success(`您是首位扫描该二维码的消费者，${tag}基于区块链技术为您提供正品保障。`, 5, null, false);
+          //     }
+          //   }
+          //   else {
+          //     fake([
+          //       teaidnum,
+          //       code,
+          //       'wxdc0c08cd48fbb65b'
+          //     ]).then(response => {
+          //       if (response.data.count !== 0 && response.data.count !== undefined) {
+          //         Toast.fail(`已有${response.data.count}人扫描过该二维码，欢迎选购超山杨梅。`, 7, null, false);
+          //       }
+          //       else {
+          //         Toast.success(`您是首位扫描该二维码的消费者，${tag}基于区块链技术为您提供正品保障。`, 5, null, false);
+          //       }
+          //       localStorage.setItem('count', response.data.count);
+          //     });
+          //   }
+          // }
 
 
 
