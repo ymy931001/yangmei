@@ -145,24 +145,24 @@ export default class Consumer extends Component {
           }
           //温湿度数据合法标志
           var flag = true;
-          // for (let i = 0; i < garden.details.soilInfo.length; i++) {
-          //   let temdata = garden.details.soilInfo[i]['temperature'];
-          //   let mosdata = garden.details.soilInfo[i]['mositure'];
-          //   if ((parseFloat(temdata) > parseFloat(35)) || (parseFloat(temdata) < parseFloat(0)) || (parseFloat(mosdata) > parseFloat(80)) || (parseFloat(mosdata) < parseFloat(5))) {
-          //     flag = false;
-          //   }
-          // }
-          // if ((garden.details.soilInfo.length == 10 && flag)) {
-          //   temArray = [];
-          //   mosArray = [];
-          //   let data = garden.details.soilInfo;
-          //   for (let i = 0; i < 8; i++) {
-          //     let tem = [i + 1, garden.details.soilInfo[i]['temperature']];
-          //     let mos = [i + 1, garden.details.soilInfo[i]['mositure']];
-          //     temArray.push(tem);
-          //     mosArray.push(mos);
-          //   }
-          // }
+          for (let i = 0; i < garden.details.soilInfo.length; i++) {
+            let temdata = garden.details.soilInfo[i]['temperature'];
+            let mosdata = garden.details.soilInfo[i]['mositure'];
+            if ((parseFloat(temdata) > parseFloat(35)) || (parseFloat(temdata) < parseFloat(0)) || (parseFloat(mosdata) > parseFloat(80)) || (parseFloat(mosdata) < parseFloat(5))) {
+              flag = false;
+            }
+          }
+          if ((garden.details.soilInfo.length == 10 && flag)) {
+            temArray = [];
+            mosArray = [];
+            let data = garden.details.soilInfo;
+            for (let i = 0; i < 8; i++) {
+              let tem = [i + 1, garden.details.soilInfo[i]['temperature']];
+              let mos = [i + 1, garden.details.soilInfo[i]['mositure']];
+              temArray.push(tem);
+              mosArray.push(mos);
+            }
+          }
           if (teaType === "杜家杨梅") {
             document.title = "杜家村杨梅—让数据说话";
             this.setState({
