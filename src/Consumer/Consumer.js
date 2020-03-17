@@ -27,6 +27,7 @@ export default class Consumer extends Component {
     getInfoForConumer([
       teaid
     ]).then(res => {
+      console.log(res)
       if (!res.data.success) {
         const nothingdiv = (
           <div className="Consumer-nothingbox">
@@ -84,7 +85,7 @@ export default class Consumer extends Component {
               fake([
                 teaidnum,
                 code,
-                'wx8cd085ab60783aac'
+                'wxdc0c08cd48fbb65b'
               ]).then(response => {
                 
                 if (response.data.count !== 0 && response.data.count !== undefined) {
@@ -98,6 +99,7 @@ export default class Consumer extends Component {
             }
           }
 
+          
           // if (teaType === "超山杨梅") {
           //   if (localcount) {
           //     if (localcount !== '0') {
@@ -315,6 +317,7 @@ export default class Consumer extends Component {
           }
 
           if (teaType === "超山杨梅") {
+            console.log(666)
             document.title = "超山杨梅—让数据说话";
             this.setState({
               content: <div style={{ width: '100%' }} id="ym_body">
@@ -611,7 +614,6 @@ export default class Consumer extends Component {
           });
         } else {
           localStorage.removeItem('count');
-          console.log(generateGetCodeUrl(document.location.href))
           document.location = generateGetCodeUrl(document.location.href);
         }
       }
