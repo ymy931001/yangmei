@@ -410,7 +410,7 @@ export default class Consumer extends Component {
                 <div className="sub-content css12594a6bbd1d0b6"
                 >超山杨梅的梅子的营养价值可说非常高，它属於硷性食物，酸味来源是有机酸，可以提高血液中的硷性，促进新陈代谢、消除疲劳、预防贫血，还能抗老化、助消化、抑制感冒咳嗽，连晕车止吐、醒酒除口臭，都有妙效，是不可多得的家庭必备零食和药材。</div>
                 <div className="pick2">
-                  <img src={require('./ympacks.png')} style={{ width: '100%', height: '2.73rem', float: 'left', }} />
+                  <img src={require('./ympacks.jpg')} style={{ width: '100%', height: '2.73rem', float: 'left', }} />
                 </div>
                 <div className="sub-title3 css12594a6bbd1d0b6">用科技包裹风味与质量</div>
                 <div className="sub-content css12594a6bbd1d0b6"
